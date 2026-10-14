@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Ficheros mensuales descargados y temporales
+zips/
+*.part
+*.tmp
+resumen.txt
+
+# Resultados de la ejecución local (los versionados están en datos/)
+/base_licitaciones.json
+/licitaciones_en_plazo*.csv
+/licitaciones_en_plazo*.xlsx
+registro.log*

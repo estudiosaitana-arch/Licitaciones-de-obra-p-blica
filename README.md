@@ -11,9 +11,12 @@ Con ellos:
 - mantiene una **base local sin duplicados**, siempre con la versión más reciente de cada licitación;
 - marca las **nuevas** desde la ejecución anterior;
 - registra los **cambios** de plazo, de importe y de estado (incluidas las anulaciones);
-- genera un CSV con las obras **en plazo**, ordenadas por fecha límite, con los datos necesarios para la preselección.
+- genera un **Excel** con las obras **en plazo**, ordenadas por fecha límite, con las columnas ya tipadas
+  (importes, fechas, días restantes, porcentajes, enlaces) para filtrar y tratar los datos;
+- se puede **programar** para que se ejecute solo cada día laborable en Windows.
 
-Solo usa la biblioteca estándar de Python (3.8 o superior). No hay dependencias que instalar.
+Requisitos: Python 3.8 o superior y el paquete `openpyxl` para el Excel. Los lanzadores `.bat` lo instalan
+si falta. Sin `openpyxl`, el script genera un CSV en su lugar.
 
 ---
 
@@ -22,9 +25,27 @@ Solo usa la biblioteca estándar de Python (3.8 o superior). No hay dependencias
 | Fichero | Uso |
 |---|---|
 | `carga_inicial.bat` | **Una sola vez.** Descarga los ficheros mensuales de los 2 últimos meses y crea la base. |
-| `ejecutar_licitaciones.bat` | **Cada día.** Actualiza la base y abre `licitaciones_en_plazo.csv` en Excel. |
+| `programar_tarea.bat` | **Una sola vez.** Deja programada la ejecución automática (ver más abajo). |
+| `ejecutar_licitaciones.bat` | Ejecución manual cuando se quiera. Actualiza la base y abre el Excel. |
+| `quitar_tarea.bat` | Elimina la ejecución automática. |
 
-Los dos lanzadores aplican el rango de importe de 500.000 € a 10.000.000 € sin IVA. Para cambiarlo, edita el `.bat`.
+Los lanzadores aplican el rango de importe de 500.000 € a 10.000.000 € sin IVA. Para cambiarlo, edita el `.bat`
+(y la variable `$Argumentos` de `programar_tarea.ps1` para la ejecución automática).
+
+### Ejecución automática en Windows
+
+`programar_tarea.bat` registra en el Programador de tareas de Windows la tarea **Licitaciones PLACSP**
+(no necesita permisos de administrador):
+
+- De lunes a viernes a las **07:45**. Para otra hora: `programar_tarea.bat 08:30` (sustituye la anterior).
+- Si el ordenador estaba apagado a esa hora, se ejecuta en cuanto se inicia sesión.
+- Se ejecuta sin ventana (`pythonw`). Cada ejecución queda anotada en `registro.log`.
+- Si hay licitaciones **nuevas o con cambios**, abre `licitaciones_en_plazo.xlsx` al terminar.
+- Comprueba que Python funciona e instala `openpyxl` si falta.
+
+La tarea solo se ejecuta con la sesión de Windows iniciada. Si el Excel está abierto en ese momento,
+el resultado se guarda con la fecha y hora en el nombre (`licitaciones_en_plazo_2026-10-14_074512.xlsx`)
+y se avisa en `registro.log`.
 
 Desde una consola:
 
@@ -43,9 +64,12 @@ python licitaciones_obras.py --help                  # todas las opciones
 | `--lugar` | — | Además, texto de provincia o municipio |
 | `--paginas` | `30` | Máximo de páginas del feed. Se detiene antes si llega a lo leído el día anterior |
 | `--meses` / `--zip AAAAMM` | — | Carga de ficheros mensuales (carga inicial) |
-| `--min` / `--max` | — | Rango de presupuesto base sin IVA para el CSV |
+| `--min` / `--max` | — | Rango de presupuesto base sin IVA |
 | `--incluir-mixtos` | no | Incluye contratos que no son de tipo obras pero tienen algún CPV 45 |
-| `--base` / `--salida` | raíz | Rutas de la base JSON y del CSV |
+| `--base` | `base_licitaciones.json` | Ruta de la base JSON |
+| `--salida` | `licitaciones_en_plazo.xlsx` | Fichero de resultados `.xlsx` o `.csv`. Se puede repetir para generar los dos |
+| `--log` | — | Añade la salida a un fichero de registro |
+| `--abrir` | `nunca` | Abre el resultado al terminar: `nunca`, `siempre` o `novedades` |
 
 ## Automatización con GitHub Actions
 
@@ -53,7 +77,8 @@ Hay dos flujos en `.github/workflows/`:
 
 - **Pruebas** (`pruebas.yml`): se ejecuta en cada cambio, en Linux y Windows.
 - **Actualización diaria** (`actualizacion_diaria.yml`): de lunes a viernes a las 07:15 (hora peninsular en verano).
-  Lee la Plataforma, actualiza `datos/base_licitaciones.json` y `datos/licitaciones_en_plazo.csv`, y los guarda en el repositorio.
+  Lee la Plataforma, actualiza `datos/base_licitaciones.json`, `datos/licitaciones_en_plazo.csv` y
+  `datos/licitaciones_en_plazo.xlsx`, y los guarda en el repositorio.
   El resumen de cada ejecución se ve en la pestaña **Actions**.
 
 Para activarla:
@@ -64,9 +89,44 @@ Para activarla:
 
 Para cambiar el ámbito o el rango de importe, edita los argumentos del paso *Leer la Plataforma* del flujo.
 
+## Resultado en Excel
+
+`licitaciones_en_plazo.xlsx` tiene tres hojas. Las dos de datos son **tablas de Excel** (filtros y orden
+en la cabecera, se pueden usar directamente en tablas dinámicas o Power Query).
+
+**En plazo**: una fila por licitación abierta, ordenadas por fecha límite.
+
+| Columna | Tipo y formato |
+|---|---|
+| Nueva | `SÍ` en verde si apareció desde la ejecución anterior |
+| Fecha límite | Fecha y hora (`dd/mm/aaaa hh:mm`) |
+| Días restantes | Fórmula: se recalcula con la fecha del día al abrir. Rojo ≤ 7 días, ámbar ≤ 14 |
+| Presupuesto base sin IVA, Valor estimado | Número con formato `#.##0,00 €` |
+| Comunidad, Provincia, Municipio | Texto (a partir del código NUTS) |
+| Órgano de contratación, Objeto, Expediente, Procedimiento | Texto |
+| Plazo de ejecución (meses) | Número. Los plazos en días se dividen entre 30; los de años, por 12 |
+| Clasificación exigida | Texto (`C4-3; G6-2`). Solo si la Plataforma la informa |
+| Juicio de valor | Porcentaje del peso de los criterios sujetos a juicio de valor |
+| Criterios de adjudicación, Garantías, Revisión de precios | Texto. `(JV)` = juicio de valor |
+| Nº lotes | Número entero |
+| CPV | Texto |
+| PCAP, PPT, Ficha PLACSP | Enlaces directos |
+| Primera detección | Fecha en que entró en la base |
+| Cambios | Historial de plazo, importe y estado (resaltado si tiene contenido) |
+
+**Resumen**: fecha de actualización, fuentes leídas, totales y desglose por comunidad y provincia
+(número, importe, nuevas y vencimientos en 7 días). Son fórmulas sobre la hoja *En plazo*.
+
+**Histórico**: todas las licitaciones de obras de la base, en cualquier estado (en plazo, pendiente de
+adjudicación, adjudicada, resuelta, anulada), sin filtro de importe. Sirve para analizar órganos, importes
+y tipologías a lo largo del tiempo.
+
+El libro se regenera en cada ejecución: lo que se anote en él se pierde. El seguimiento de las licitaciones
+seleccionadas debe hacerse en el libro de preselección.
+
 ## Columnas del CSV
 
-Separador `;`, coma decimal y UTF-8 con BOM, para que Excel en español lo abra directamente.
+Con `--salida fichero.csv`. Separador `;`, coma decimal y UTF-8 con BOM, para que Excel en español lo abra directamente.
 
 | Columna | Contenido |
 |---|---|
@@ -96,8 +156,11 @@ Separador `;`, coma decimal y UTF-8 con BOM, para que Excel en español lo abra 
 
 ```
 ├── licitaciones_obras.py          Script principal
-├── ejecutar_licitaciones.bat      Lanzador diario (Windows)
-├── carga_inicial.bat              Lanzador de carga inicial (Windows)
+├── carga_inicial.bat              Carga inicial (Windows, una vez)
+├── programar_tarea.bat / .ps1     Programa la ejecución automática (Windows, una vez)
+├── quitar_tarea.bat               Elimina la ejecución automática
+├── LEEME.txt                      Instrucciones de instalación y uso (Windows)
+├── ejecutar_licitaciones.bat      Ejecución manual (Windows)
 ├── datos/                         Resultados versionados (los genera GitHub Actions)
 ├── tests/test_licitaciones.py     Pruebas con un feed sintético de estructura CODICE real
 └── .github/workflows/             Pruebas y actualización diaria

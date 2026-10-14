@@ -40,6 +40,13 @@ NS = ('xmlns="http://www.w3.org/2005/Atom" xmlns:at="http://purl.org/atompub/tom
       'xmlns:cac-place-ext="urn:dgpe:names:draft:codice-place-ext:schema:xsd:CommonAggregateComponents-2" '
       'xmlns:cbc-place-ext="urn:dgpe:names:draft:codice-place-ext:schema:xsd:CommonBasicComponents-2"')
 BASE_ID = "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/"
+SALIDAS = ("--salida", "licitaciones_en_plazo.csv", "--salida", "licitaciones_en_plazo.xlsx")
+
+try:
+    import openpyxl  # noqa: F401
+    HAY_OPENPYXL = True
+except ImportError:
+    HAY_OPENPYXL = False
 
 
 def entrada(n, actualizado, estado, tipo, objeto, importe, cpvs, nuts, provincia, municipio,
@@ -154,7 +161,7 @@ class Escenario(unittest.TestCase):
     def test_1_carga_inicial(self):
         self.escribe("p1.atom", pagina([A_NUEVA, B, C_MIXTO, D_MADRID], self.url("p2.atom"), BAJA_E))
         self.escribe("p2.atom", pagina([E_ANULADA, G_SIN_NUTS, H_VENCIDA]))
-        self.ejecuta("--zip", "200001", "--url", self.url("p1.atom"))
+        self.ejecuta("--zip", "200001", "--url", self.url("p1.atom"), *SALIDAS)
         filas = self.csv()
 
         self.assertEqual(set(filas), {"EXP-1", "EXP-2", "EXP-7"})  # fuera: mixto, Madrid, anulada, vencida
@@ -183,7 +190,7 @@ class Escenario(unittest.TestCase):
         self.escribe("p1.atom", pagina([F_NUEVA, B_CAMBIO], self.url("p2.atom")))
         self.escribe("p2.atom", pagina([A_NUEVA, C_MIXTO, D_MADRID], self.url("p3.atom"), BAJA_E))
         self.escribe("p3.atom", pagina([E_ANULADA, G_SIN_NUTS, H_VENCIDA]))
-        salida = self.ejecuta("--url", self.url("p1.atom"))
+        salida = self.ejecuta("--url", self.url("p1.atom"), *SALIDAS, "--log", "registro.log")
         filas = self.csv()
 
         self.assertEqual(filas["EXP-6"]["nueva"], "SÍ")
@@ -196,6 +203,66 @@ class Escenario(unittest.TestCase):
                      "--salida", "datos/rango.csv")
         self.assertEqual(set(self.csv("datos/rango.csv")), {"EXP-1", "EXP-2"})
 
+    @unittest.skipUnless(HAY_OPENPYXL, "openpyxl no instalado")
+    def test_4_excel(self):
+        """El Excel de la actualización (test_2) lleva tipos y formatos reales."""
+        from openpyxl import load_workbook
+        wb = load_workbook(os.path.join(self.dir, "licitaciones_en_plazo.xlsx"))
+        self.assertEqual(wb.sheetnames, ["En plazo", "Resumen", "Histórico"])
+        ws = wb["En plazo"]
+        cab = {c.value: c.column_letter for c in ws[1]}
+        self.assertIn("EnPlazo", ws.tables)
+        filas = {ws[f"{cab['Expediente']}{i}"].value: i for i in range(2, ws.max_row + 1)}
+        self.assertEqual(set(filas), {"EXP-1", "EXP-2", "EXP-6", "EXP-7"})
+        i = filas["EXP-1"]
+        importe = ws[f"{cab['Presupuesto base sin IVA']}{i}"]
+        self.assertEqual(importe.value, 590325.73)
+        self.assertIn("€", importe.number_format)
+        limite = ws[f"{cab['Fecha límite']}{i}"]
+        self.assertEqual(limite.value, datetime.strptime(f"{dia(19)} 19:00", "%Y-%m-%d %H:%M"))
+        self.assertEqual(limite.number_format, "dd/mm/yyyy hh:mm")
+        self.assertTrue(str(ws[f"{cab['Días restantes']}{i}"].value).startswith("=IF("))
+        self.assertEqual(ws[f"{cab['Plazo de ejecución (meses)']}{i}"].value, 6)
+        self.assertEqual(ws[f"{cab['Juicio de valor']}{filas['EXP-2']}"].value, 0.3)
+        self.assertEqual(ws[f"{cab['Juicio de valor']}{filas['EXP-2']}"].number_format, "0%")
+        self.assertEqual(ws[f"{cab['Nº lotes']}{filas['EXP-2']}"].value, 2)
+        self.assertEqual(ws[f"{cab['Nueva']}{filas['EXP-6']}"].value, "SÍ")
+        self.assertIsNone(ws[f"{cab['Nueva']}{i}"].value)
+        pcap = ws[f"{cab['PCAP']}{i}"]
+        self.assertEqual(pcap.value, "PCAP")
+        self.assertTrue(pcap.hyperlink.target.startswith("https://"))
+        self.assertIsInstance(ws[f"{cab['Primera detección']}{i}"].value, datetime)
+        # Histórico: incluye la anulada y la vencida, con su estado
+        hs = wb["Histórico"]
+        hc = {c.value: c.column_letter for c in hs[1]}
+        estados = {hs[f"{hc['Expediente']}{j}"].value: hs[f"{hc['Estado']}{j}"].value
+                   for j in range(2, hs.max_row + 1)}
+        self.assertEqual(estados["EXP-5"], "Anulada")
+        self.assertEqual(estados["EXP-8"], "Plazo vencido")  # PUB en la Plataforma, pero ya venció
+        self.assertEqual(estados["EXP-1"], "En plazo")
+        self.assertNotIn("EXP-3", estados)  # el mixto no es contrato de obras
+        # Resumen con fórmulas sobre la hoja En plazo
+        rs = wb["Resumen"]
+        formulas = [c.value for fila in rs.iter_rows() for c in fila if isinstance(c.value, str) and c.value.startswith("=")]
+        self.assertTrue(any("COUNTIFS('En plazo'!" in f for f in formulas))
+        # Registro de la ejecución
+        with open(os.path.join(self.dir, "registro.log"), encoding="utf-8") as f:
+            self.assertIn("EN PLAZO", f.read())
+
+    def test_5_sin_openpyxl(self):
+        """Sin openpyxl se genera el CSV en lugar del Excel, sin error."""
+        falso = os.path.join(self.dir, "sin_openpyxl", "openpyxl")
+        os.makedirs(falso, exist_ok=True)
+        with open(os.path.join(falso, "__init__.py"), "w") as f:
+            f.write("raise ImportError('simulado')\n")
+        entorno = dict(os.environ, PYTHONPATH=os.path.dirname(falso))
+        res = subprocess.run([sys.executable, SCRIPT, "--url", self.url("p1.atom"), "--salida", "solo.xlsx"],
+                             cwd=self.dir, capture_output=True, text=True, encoding="utf-8", env=entorno)
+        self.assertEqual(res.returncode, 0, res.stderr)
+        self.assertIn("falta el paquete openpyxl", res.stdout)
+        self.assertTrue(os.path.exists(os.path.join(self.dir, "solo.csv")))
+        self.assertFalse(os.path.exists(os.path.join(self.dir, "solo.xlsx")))
+
 
 class Utilidades(unittest.TestCase):
     def test_horario_verano_e_invierno(self):
@@ -207,6 +274,13 @@ class Utilidades(unittest.TestCase):
         self.assertEqual(L.limite_dt("2026-10-20 19:00"), datetime(2026, 10, 20, 19, 0))
         self.assertEqual(L.limite_dt("2026-10-20"), datetime(2026, 10, 20, 23, 59))
         self.assertIsNone(L.limite_dt(""))
+
+    def test_plazo_meses(self):
+        self.assertEqual(L.plazo_meses("6 meses"), 6)
+        self.assertEqual(L.plazo_meses("2 años"), 24)
+        self.assertEqual(L.plazo_meses("45 días"), 1.5)
+        self.assertEqual(L.plazo_meses("12,5 meses"), 12.5)
+        self.assertIsNone(L.plazo_meses(""))
 
     def test_ambito(self):
         reg = {"nuts": "ES521", "provincia_txt": "", "municipio": ""}
