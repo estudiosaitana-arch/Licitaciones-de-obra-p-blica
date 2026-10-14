@@ -1,0 +1,139 @@
+﻿LICITACIONES DE OBRAS - PLATAFORMA DE CONTRATACIÓN DEL SECTOR PÚBLICO
+Instrucciones de instalación y uso (versión 3)
+==========================================================================
+
+1. OBJETO
+---------
+La herramienta lee diariamente la Plataforma de Contratación del Sector
+Público (PLACSP) y genera el libro licitaciones_en_plazo.xlsx con las
+licitaciones de obras en plazo de presentación en la Comunitat Valenciana y
+Andalucía, con presupuesto base de licitación sin IVA entre 500.000 € y
+10.000.000 €.
+
+
+2. REQUISITOS
+-------------
+- Windows 10 u 11.
+- Python 3.8 o superior, instalado desde python.org con la casilla
+  "Add Python to PATH" marcada.
+- Paquete openpyxl. Se instala automáticamente la primera vez que se
+  ejecuta cualquiera de los lanzadores .bat.
+- Conexión a internet con acceso a contrataciondelestado.es.
+
+
+3. FICHEROS
+-----------
+Todos los ficheros deben estar en la misma carpeta.
+
+  licitaciones_obras.py       Programa principal. No se modifica.
+  carga_inicial.bat           Carga inicial de la base. Se ejecuta una vez.
+  programar_tarea.bat         Programa la ejecución automática. Una vez.
+  programar_tarea.ps1         Lo utiliza programar_tarea.bat. No se abre.
+  ejecutar_licitaciones.bat   Ejecución manual, cuando se necesite.
+  quitar_tarea.bat            Elimina la ejecución automática.
+  LEEME.txt                   Este documento.
+
+Ficheros que genera la herramienta en la misma carpeta:
+
+  base_licitaciones.json      Base de datos acumulada. No se borra ni se
+                              edita: contiene el historial de la base.
+  licitaciones_en_plazo.xlsx  Resultado. Se regenera en cada ejecución.
+  registro.log                Registro de cada ejecución.
+  zips\                       Ficheros mensuales descargados en la carga
+                              inicial. Se puede borrar después.
+
+
+4. INSTALACIÓN (una sola vez)
+-----------------------------
+Paso 1. Copiar todos los ficheros en una carpeta de trabajo, por ejemplo
+        C:\Licitaciones. Si se sustituye una versión anterior, conservar
+        el fichero base_licitaciones.json existente.
+
+Paso 2. Si no existe base_licitaciones.json, ejecutar carga_inicial.bat
+        (doble clic). Descarga los ficheros mensuales de los dos últimos
+        meses. Puede tardar varios minutos. Al terminar abre el Excel.
+
+Paso 3. Ejecutar programar_tarea.bat (doble clic). Comprueba Python,
+        instala openpyxl si falta y registra la tarea programada
+        "Licitaciones PLACSP". Al final pregunta si se lanza en ese momento
+        para comprobar su funcionamiento: responder S.
+
+Si Windows muestra el aviso "Windows protegió su PC" al abrir un .bat,
+pulsar "Más información" y "Ejecutar de todas formas".
+
+
+5. FUNCIONAMIENTO AUTOMÁTICO
+----------------------------
+- La tarea se ejecuta de lunes a viernes a las 07:45.
+- Si el ordenador está apagado a esa hora, se ejecuta al iniciar sesión.
+- Requiere el ordenador encendido y la sesión de Windows iniciada.
+- Se ejecuta sin abrir ninguna ventana y tarda entre 1 y 3 minutos.
+- Si hay licitaciones nuevas o con cambios, abre el Excel al terminar.
+- El resultado de cada ejecución queda anotado en registro.log.
+
+Cambiar la hora:   abrir una consola en la carpeta y ejecutar
+                   programar_tarea.bat 08:30
+Quitar la tarea:   ejecutar quitar_tarea.bat
+Ejecución manual:  ejecutar ejecutar_licitaciones.bat
+
+
+6. CONTENIDO DEL EXCEL
+----------------------
+Hoja "En plazo". Una fila por licitación abierta, ordenadas por fecha
+límite. Es una tabla de Excel con filtros en la cabecera.
+  - Nueva: "SÍ" en verde si apareció desde la ejecución anterior.
+  - Días restantes: se recalcula con la fecha del día al abrir el libro.
+    Rojo: 7 días o menos. Ámbar: 14 días o menos.
+  - Importes en euros, fechas, plazo de ejecución en meses, porcentaje de
+    juicio de valor y número de lotes en formato numérico.
+  - PCAP, PPT y Ficha PLACSP: enlaces directos.
+  - Cambios: ampliaciones de plazo y cambios de importe o estado,
+    resaltados en naranja.
+
+Hoja "Resumen". Fecha de actualización, totales y desglose por comunidad y
+provincia (número, importe, nuevas y vencimientos a 7 días).
+
+Hoja "Histórico". Todas las licitaciones de obras de la base, en cualquier
+estado y sin filtro de importe.
+
+
+7. ADVERTENCIAS
+---------------
+- El Excel se regenera en cada ejecución. Las anotaciones que se hagan en
+  él se pierden. El seguimiento de las licitaciones seleccionadas se
+  realiza en el libro de preselección.
+- Si el Excel está abierto durante la ejecución, el resultado se guarda
+  con fecha y hora en el nombre (licitaciones_en_plazo_AAAA-MM-DD_HHMMSS.xlsx).
+  Conviene cerrar el libro al terminar la jornada.
+- La Plataforma publica estos datos con unos días de retraso respecto a la
+  publicación de la licitación.
+- La clasificación exigida solo figura cuando el órgano de contratación la
+  informa en la Plataforma. En otro caso, se comprueba en el PCAP.
+- Los datos proceden de la carga que realiza cada órgano de contratación.
+  Antes de decidir la presentación de oferta se verifican en el PCAP.
+
+
+8. INCIDENCIAS
+--------------
+No se encuentra Python
+  Instalar Python desde python.org marcando "Add Python to PATH" y repetir
+  el paso de instalación.
+
+Sale un CSV en lugar del Excel
+  No se ha podido instalar openpyxl. Ejecutar en una consola:
+  py -m pip install --user openpyxl
+
+No se pudo registrar la tarea
+  La política del equipo puede impedir crear tareas programadas. Consultar
+  con el departamento de sistemas. Mientras tanto, usar
+  ejecutar_licitaciones.bat.
+
+La tarea no se ha ejecutado o el Excel no se actualiza
+  Revisar las últimas líneas de registro.log. Comprobar en el Programador
+  de tareas de Windows (Biblioteca del Programador de tareas) que existe
+  la tarea "Licitaciones PLACSP" y el resultado de su última ejecución.
+
+Cambiar el ámbito o el rango de importe
+  Editar los argumentos --min y --max en ejecutar_licitaciones.bat y en la
+  variable $Argumentos de programar_tarea.ps1, y volver a ejecutar
+  programar_tarea.bat.
