@@ -23,16 +23,41 @@ concurrency:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     env:
       TZ: Europe/Madrid
+      PYTHONUNBUFFERED: "1"
       MESES: ${{ inputs.meses || '0' }}
+      FEED: https://contrataciondelestado.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3.atom
+      ZIPS: https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Comprobar acceso a la Plataforma
+        # Falla en menos de un minuto si los servidores de GitHub no pueden conectar con la Plataforma,
+        # en lugar de agotar los reintentos de descarga.
+        run: |
+          comprueba() {  # $1 descripción, $2 URL, $3 opciones de curl
+            echo "→ $1"
+            if ! cabeceras=$(curl -sS $3 -m 40 -D - -o /dev/null -w "tiempo %{time_total} s\n" "$2" 2>&1); then
+              echo "::error::Sin acceso a $1 desde GitHub: $cabeceras"
+              return 1
+            fi
+            echo "$cabeceras" | grep -iE "^HTTP/|^content-length|^tiempo" | sed 's/^/   /'
+            codigo=$(echo "$cabeceras" | grep -E "^HTTP/" | tail -1 | awk '{print $2}')
+            case "$codigo" in
+              2*) ;;
+              *) echo "::error::$1 responde HTTP $codigo"; return 1 ;;
+            esac
+          }
+          comprueba "Feed ATOM" "$FEED" ""
+          if [ "$MESES" != "0" ]; then
+            comprueba "Fichero mensual $(date +%Y%m)" "${ZIPS}_$(date +%Y%m).zip" "-I"
+          fi
 
       - name: Instalar openpyxl (salida Excel)
         run: python -m pip install --disable-pip-version-check openpyxl
