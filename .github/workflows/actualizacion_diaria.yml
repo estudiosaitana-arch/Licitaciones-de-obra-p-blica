@@ -12,6 +12,11 @@ on:
         description: "Carga inicial: número de ficheros mensuales a descargar (0 = ninguno)"
         required: false
         default: "0"
+      forzar_correo:
+        description: "Enviar el correo aunque no haya novedades (prueba)"
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -97,12 +102,14 @@ jobs:
           USUARIO: ${{ secrets.GMAIL_USUARIO }}
           CLAVE: ${{ secrets.GMAIL_CONTRASENA_APP }}
           DESTINO: ${{ secrets.CORREO_DESTINO }}
+          FORZAR: ${{ inputs.forzar_correo || false }}
         run: |
           nuevas=$(grep -oP 'Nuevas desde[^:]*: \K[0-9]+' resumen.txt || echo 0)
           cambios=$(grep -oP 'Con cambios[^:]*: \K[0-9]+' resumen.txt || echo 0)
           echo "Nuevas: $nuevas · Con cambios: $cambios"
           enviar=false
           if [ "$nuevas" -gt 0 ] || [ "$cambios" -gt 0 ]; then enviar=true; fi
+          if [ "$FORZAR" = "true" ]; then echo "Envío forzado desde la ejecución manual."; enviar=true; fi
           if [ -z "$USUARIO" ] || [ -z "$CLAVE" ] || [ -z "$DESTINO" ]; then
             echo "::notice::No se envía correo: faltan los secretos GMAIL_USUARIO, GMAIL_CONTRASENA_APP o CORREO_DESTINO."
             enviar=false
@@ -115,7 +122,7 @@ jobs:
           } >> "$GITHUB_OUTPUT"
 
       - name: Enviar el Excel por correo
-        # Solo si hay obras nuevas o con cambios. Cuenta Gmail con contraseña de aplicación.
+        # Solo si hay obras nuevas o con cambios (o envío forzado). Cuenta Gmail con contraseña de aplicación.
         if: steps.novedades.outputs.enviar == 'true'
         uses: dawidd6/action-send-mail@v3
         with:
