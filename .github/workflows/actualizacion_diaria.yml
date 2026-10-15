@@ -43,14 +43,14 @@ jobs:
         run: |
           comprueba() {  # $1 descripción, $2 URL, $3 opciones de curl
             echo "→ $1"
-            if ! cabeceras=$(curl -sS $3 -m 40 -D - -o /dev/null -w "tiempo %{time_total} s\n" "$2" 2>&1); then
-              echo "::error::Sin acceso a $1 desde GitHub: $cabeceras"
-              return 1
-            fi
-            echo "$cabeceras" | grep -iE "^HTTP/|^content-length|^tiempo" | sed 's/^/   /'
+            # Basta con recibir la respuesta: si llega HTTP 2xx hay acceso, aunque el cuerpo
+            # (varios MB en el feed) no termine de descargarse en el tiempo de la prueba.
+            cabeceras=$(curl -sS $3 -m 20 -D - -o /dev/null -w "tiempo %{time_total} s\n" "$2" 2>&1) || true
+            echo "$cabeceras" | grep -iE "^HTTP/|^content-length|^tiempo|^curl:" | sed 's/^/   /'
             codigo=$(echo "$cabeceras" | grep -E "^HTTP/" | tail -1 | awk '{print $2}')
             case "$codigo" in
-              2*) ;;
+              2*) echo "   Acceso correcto (HTTP $codigo)" ;;
+              "") echo "::error::Sin acceso a $1 desde GitHub"; return 1 ;;
               *) echo "::error::$1 responde HTTP $codigo"; return 1 ;;
             esac
           }
