@@ -90,3 +90,42 @@ jobs:
             git commit -m "Actualización de licitaciones $(date +%F)"
             git push
           fi
+
+      - name: Comprobar si hay que enviar el correo
+        id: novedades
+        env:
+          USUARIO: ${{ secrets.GMAIL_USUARIO }}
+          CLAVE: ${{ secrets.GMAIL_CONTRASENA_APP }}
+          DESTINO: ${{ secrets.CORREO_DESTINO }}
+        run: |
+          nuevas=$(grep -oP 'Nuevas desde[^:]*: \K[0-9]+' resumen.txt || echo 0)
+          cambios=$(grep -oP 'Con cambios[^:]*: \K[0-9]+' resumen.txt || echo 0)
+          echo "Nuevas: $nuevas · Con cambios: $cambios"
+          enviar=false
+          if [ "$nuevas" -gt 0 ] || [ "$cambios" -gt 0 ]; then enviar=true; fi
+          if [ -z "$USUARIO" ] || [ -z "$CLAVE" ] || [ -z "$DESTINO" ]; then
+            echo "::notice::No se envía correo: faltan los secretos GMAIL_USUARIO, GMAIL_CONTRASENA_APP o CORREO_DESTINO."
+            enviar=false
+          fi
+          {
+            echo "nuevas=$nuevas"
+            echo "cambios=$cambios"
+            echo "enviar=$enviar"
+            echo "fecha=$(date +%d/%m/%Y)"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Enviar el Excel por correo
+        # Solo si hay obras nuevas o con cambios. Cuenta Gmail con contraseña de aplicación.
+        if: steps.novedades.outputs.enviar == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          secure: true
+          username: ${{ secrets.GMAIL_USUARIO }}
+          password: ${{ secrets.GMAIL_CONTRASENA_APP }}
+          from: Licitaciones de obra <${{ secrets.GMAIL_USUARIO }}>
+          to: ${{ secrets.CORREO_DESTINO }}
+          subject: "Licitaciones de obra ${{ steps.novedades.outputs.fecha }}: ${{ steps.novedades.outputs.nuevas }} nuevas, ${{ steps.novedades.outputs.cambios }} con cambios"
+          body: file://resumen.txt
+          attachments: datos/licitaciones_en_plazo.xlsx
