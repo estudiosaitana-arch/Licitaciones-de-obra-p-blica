@@ -197,7 +197,9 @@ def descarga(url, destino=None, reintentos=3, timeout=120):
                 if destino is None:
                     return resp.read()
                 total = int(resp.headers.get("Content-Length") or 0)
-                leido = 0
+                print(f"    Tamaño: {total / 1e6:,.0f} MB" if total else "    Tamaño: desconocido", flush=True)
+                consola = getattr(sys.stdout, "isatty", lambda: False)()
+                leido, aviso, inicio = 0, 0, time.monotonic()
                 with open(destino + ".part", "wb") as f:
                     while True:
                         bloque = resp.read(1 << 20)
@@ -205,9 +207,15 @@ def descarga(url, destino=None, reintentos=3, timeout=120):
                             break
                         f.write(bloque)
                         leido += len(bloque)
-                        if total:
-                            print(f"\r    {leido / 1e6:,.0f} / {total / 1e6:,.0f} MB", end="", flush=True)
-                print()
+                        segundos = max(time.monotonic() - inicio, 0.001)
+                        estado = (f"    {leido / 1e6:,.0f}" + (f" / {total / 1e6:,.0f}" if total else "") +
+                                  f" MB · {leido / 1e6 / segundos:,.1f} MB/s · {segundos:,.0f} s")
+                        if consola:
+                            print("\r" + estado, end="", flush=True)
+                        elif leido - aviso >= 20_000_000:  # registro: una línea cada 20 MB
+                            print(estado, flush=True)
+                            aviso = leido
+                print(("\n" if consola else "") + f"    Descarga completa: {leido / 1e6:,.0f} MB", flush=True)
                 os.replace(destino + ".part", destino)
                 return destino
         except Exception as exc:  # noqa: BLE001
@@ -908,9 +916,11 @@ def abre(ruta):
 
 # ----------------------------------------------------------------------- main
 def main():
-    for flujo in (sys.stdout, sys.stderr):  # evita errores de codificación en Windows al redirigir
+    # UTF-8 para evitar errores de codificación en Windows al redirigir, y salida línea a línea
+    # para que el progreso se vea al momento cuando se redirige (tee, registro de GitHub Actions)
+    for flujo in (sys.stdout, sys.stderr):
         try:
-            flujo.reconfigure(encoding="utf-8", errors="replace")
+            flujo.reconfigure(encoding="utf-8", errors="replace", line_buffering=True)
         except (AttributeError, ValueError):
             pass
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
