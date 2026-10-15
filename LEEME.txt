@@ -7,8 +7,8 @@ Instrucciones de instalación y uso (versión 3)
 La herramienta lee diariamente la Plataforma de Contratación del Sector
 Público (PLACSP) y genera el libro licitaciones_en_plazo.xlsx con las
 licitaciones de obras en plazo de presentación en la Comunitat Valenciana y
-Andalucía, con presupuesto base de licitación sin IVA entre 500.000 € y
-10.000.000 €.
+Andalucía, con presupuesto base de licitación sin IVA de 500.000 € o más (sin
+límite máximo).
 
 
 2. REQUISITOS

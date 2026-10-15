@@ -15,7 +15,7 @@ $Dias    = 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'
 
 # Argumentos de cada ejecución. Mismo rango de importe que ejecutar_licitaciones.bat.
 # Para no abrir el Excel automáticamente, cambia "--abrir novedades" por "--abrir nunca".
-$Argumentos = '--min 500000 --max 10000000 --log registro.log --abrir novedades'
+$Argumentos = '--min 500000 --log registro.log --abrir novedades'
 
 function Falla($texto) {
     Write-Host ''

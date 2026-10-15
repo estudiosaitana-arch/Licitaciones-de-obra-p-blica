@@ -1,7 +1,7 @@
 @echo off
 chcp 65001 >nul
 cd /d "%~dp0"
-rem Ejecucion manual. Para quitar el filtro de importe, borra --min 500000 --max 10000000
+rem Ejecucion manual. Para quitar el filtro de importe minimo, borra --min 500000
 rem Python: lanzador "py" o, en su defecto, "python" del PATH
 set "PY="
 where py >nul 2>nul && set "PY=py"
@@ -13,6 +13,6 @@ if not defined PY (
 )
 rem openpyxl es necesario para el Excel; si falta, se instala una vez
 %PY% -c "import openpyxl" >nul 2>nul || %PY% -m pip install --user --disable-pip-version-check openpyxl
-%PY% licitaciones_obras.py --min 500000 --max 10000000 --log registro.log --abrir siempre %*
+%PY% licitaciones_obras.py --min 500000 --log registro.log --abrir siempre %*
 echo.
 pause

@@ -13,6 +13,6 @@ if not defined PY (
 )
 rem openpyxl es necesario para el Excel; si falta, se instala una vez
 %PY% -c "import openpyxl" >nul 2>nul || %PY% -m pip install --user --disable-pip-version-check openpyxl
-%PY% licitaciones_obras.py --meses 2 --min 500000 --max 10000000 --log registro.log --abrir siempre
+%PY% licitaciones_obras.py --meses 2 --min 500000 --log registro.log --abrir siempre
 echo.
 pause
