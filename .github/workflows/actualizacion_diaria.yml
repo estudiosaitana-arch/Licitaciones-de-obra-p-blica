@@ -71,7 +71,7 @@ jobs:
         run: |
           python licitaciones_obras.py \
             --meses "$MESES" \
-            --min 500000 --max 10000000 \
+            --min 500000 \
             --base datos/base_licitaciones.json \
             --salida datos/licitaciones_en_plazo.csv \
             --salida datos/licitaciones_en_plazo.xlsx | tee resumen.txt
