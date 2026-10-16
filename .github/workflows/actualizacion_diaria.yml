@@ -104,8 +104,8 @@ jobs:
           DESTINO: ${{ secrets.CORREO_DESTINO }}
           FORZAR: ${{ inputs.forzar_correo || false }}
         run: |
-          nuevas=$(grep -oP 'Nuevas desde[^:]*: \K[0-9]+' resumen.txt || echo 0)
-          cambios=$(grep -oP 'Con cambios[^:]*: \K[0-9]+' resumen.txt || echo 0)
+          nuevas=$(grep -oP 'Nuevas desde[^:]*:\s*\K[0-9]+' resumen.txt || echo 0)
+          cambios=$(grep -oP 'Con cambios[^:]*:\s*\K[0-9]+' resumen.txt || echo 0)
           echo "Nuevas: $nuevas · Con cambios: $cambios"
           enviar=false
           if [ "$nuevas" -gt 0 ] || [ "$cambios" -gt 0 ]; then enviar=true; fi
