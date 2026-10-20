@@ -27,7 +27,7 @@ concurrency:
 
 jobs:
   actualizar:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 90
     env:
       TZ: Europe/Madrid
@@ -36,9 +36,9 @@ jobs:
       FEED: https://contrataciondelestado.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3.atom
       ZIPS: https://contrataciondelsectorpublico.gob.es/sindicacion/sindicacion_643/licitacionesPerfilesContratanteCompleto3
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
@@ -124,7 +124,7 @@ jobs:
       - name: Enviar el Excel por correo
         # Solo si hay obras nuevas o con cambios (o envío forzado). Cuenta Gmail con contraseña de aplicación.
         if: steps.novedades.outputs.enviar == 'true'
-        uses: dawidd6/action-send-mail@v3
+        uses: dawidd6/action-send-mail@v22
         with:
           server_address: smtp.gmail.com
           server_port: 465
