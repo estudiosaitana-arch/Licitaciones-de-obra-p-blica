@@ -1,5 +1,5 @@
 {
-"ultima_sincronizacion": "2026-11-01T19:02:45Z",
+"ultima_sincronizacion": "2026-11-02T19:03:21Z",
 "licitaciones": {
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20689248": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20689248",
@@ -3602,7 +3602,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20417914": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20417914",
-"actualizado": "2026-10-14T10:43:12Z",
+"actualizado": "2026-11-02T13:31:47Z",
 "estado": "EV",
 "tipo": "3",
 "expediente": "13646/2026",
@@ -3989,7 +3989,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20571122": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20571122",
-"actualizado": "2026-10-20T10:15:17Z",
+"actualizado": "2026-11-02T12:44:09Z",
 "estado": "EV",
 "tipo": "3",
 "expediente": "3040/2026",
@@ -7303,8 +7303,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20657974": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20657974",
-"actualizado": "2026-10-14T07:50:25Z",
-"estado": "PUB",
+"actualizado": "2026-11-02T07:51:21Z",
+"estado": "EV",
 "tipo": "3",
 "expediente": "8552/2026",
 "organo": "Junta de Gobierno del Ayuntamiento de Algemesí",
@@ -7338,7 +7338,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ndCxhU0bLob1LomV0l8B0hBh%2BIBAFARDOTJ0aUu4OtmWL7HWTQhpdzvPAxjkLVa8hNmk%2BDVTHq1UPB7KhCKtHm72jaUx%2BGS65NxaGr5/MiwZyAJWGsSt0OzTSTyw9JAs",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KoGzOnocmta9Hd5zqvq9cg%3D%3D",
 "primera_deteccion": "2026-10-15",
-"cambios": []
+"cambios": [
+"2026-11-03: estado PUB → EV"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20689854": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20689854",
@@ -7379,8 +7381,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20497054": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20497054",
-"actualizado": "2026-10-20T12:05:18Z",
-"estado": "EV",
+"actualizado": "2026-11-02T11:33:26Z",
+"estado": "ADJ",
 "tipo": "3",
 "expediente": "2026000021",
 "organo": "Concejalía Delegada de Hacienda del Ayuntamiento de la Pobla de Vallbona",
@@ -7413,7 +7415,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=o5HR0bOWC2GtCn20NO1M69vWliZ7OmSevEKHQOT4IunHeuyBtXccwGkg5%2Bh7QqcIHodDXJ7A7WUsfhKUzKT474R3BvoBLq%2BUI4VSK6GLCCFJOVDbGCDM%2BMigrvuVS7Rv",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=X2Uql7KP76AS7pcxhTeWOg%3D%3D",
 "primera_deteccion": "2026-10-15",
-"cambios": []
+"cambios": [
+"2026-11-03: estado EV → ADJ"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20496873": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20496873",
@@ -7688,7 +7692,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20689898": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20689898",
-"actualizado": "2026-10-14T07:25:44Z",
+"actualizado": "2026-11-02T13:02:08Z",
 "estado": "PUB",
 "tipo": "3",
 "expediente": "10456/2026",
@@ -10827,7 +10831,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20269627": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20269627",
-"actualizado": "2026-10-13T12:03:47Z",
+"actualizado": "2026-11-02T12:16:51Z",
 "estado": "EV",
 "tipo": "1",
 "expediente": "4264/2026",
@@ -22960,7 +22964,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20657067": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20657067",
-"actualizado": "2026-10-30T11:20:20Z",
+"actualizado": "2026-11-02T09:41:19Z",
 "estado": "EV",
 "tipo": "3",
 "expediente": "1529/2026",
@@ -23090,8 +23094,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20657083": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20657083",
-"actualizado": "2026-10-26T12:20:27Z",
-"estado": "PUB",
+"actualizado": "2026-11-02T12:22:42Z",
+"estado": "EV",
 "tipo": "3",
 "expediente": "2222/2026",
 "organo": "Pleno del Ayuntamiento de Genovés",
@@ -23125,7 +23129,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tIpzzNDql23rPOFPTI%2Bf8lJVKJz/7rBx647xrx0NPUv3sE4bI4x/4E8gPmUkHi%2BK/79O/u8CBaLITloy%2BNie4SRtYta0W7R1gu%2BtzpzKdiAZyAJWGsSt0OzTSTyw9JAs",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=bMax%2B3FiBEYmMOlAXxDEjw%3D%3D",
 "primera_deteccion": "2026-10-15",
-"cambios": []
+"cambios": [
+"2026-11-03: estado PUB → EV"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20417454": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20417454",
@@ -24145,7 +24151,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20657194": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20657194",
-"actualizado": "2026-10-27T09:58:15Z",
+"actualizado": "2026-11-02T09:35:28Z",
 "estado": "EV",
 "tipo": "3",
 "expediente": "2026000025",
@@ -27922,8 +27928,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20657534": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20657534",
-"actualizado": "2026-10-16T05:48:17Z",
-"estado": "PUB",
+"actualizado": "2026-11-02T13:44:16Z",
+"estado": "EV",
 "tipo": "3",
 "expediente": "OBR/2026000061",
 "organo": "Junta de Gobierno del Ayuntamiento Dénia",
@@ -27953,12 +27959,14 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=AgdBlH7GSf7%2B/gQDqKyDlAoyFhJcgNarxSt1e2ZzPssyJ/lnMtloVAZTC2Eg%2BoiXVcnrFM3RmikZsqUY9WYPKeCj%2BpFek0XCnWy5Zjy76nEZyAJWGsSt0OzTSTyw9JAs",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ER9gLZGa9%2B6FQ%2FlhRK79lA%3D%3D",
 "primera_deteccion": "2026-10-15",
-"cambios": []
+"cambios": [
+"2026-11-03: estado PUB → EV"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20657536": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20657536",
-"actualizado": "2026-10-08T08:32:47Z",
-"estado": "PUB",
+"actualizado": "2026-11-02T13:46:31Z",
+"estado": "EV",
 "tipo": "3",
 "expediente": "OBR/2026000062",
 "organo": "Junta de Gobierno del Ayuntamiento Dénia",
@@ -27988,7 +27996,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=aEzlPwvcDgGlCYMpyqxNdJ3XqsWMfMghUDbE5/l55s0VF7UUVJ48J9uJK/fUWZdFsturCTfRhEbNFNy21iUFKcG8VFx%2Bex24OP7OFc82djpt/o8fNevwsujgRzaBbugn",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xr2U%2FsP3G1lxseVhcqrkhw%3D%3D",
 "primera_deteccion": "2026-10-15",
-"cambios": []
+"cambios": [
+"2026-11-03: estado PUB → EV"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20000983": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20000983",
@@ -28873,7 +28883,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20611425": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20611425",
-"actualizado": "2026-10-27T12:43:23Z",
+"actualizado": "2026-11-02T13:47:54Z",
 "estado": "EV",
 "tipo": "1",
 "expediente": "SUMIN/ABR_SMPL/2026000156",
@@ -32669,8 +32679,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20658073": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20658073",
-"actualizado": "2026-10-07T11:05:59Z",
-"estado": "PUB",
+"actualizado": "2026-11-02T11:33:28Z",
+"estado": "EV",
 "tipo": "3",
 "expediente": "TSA0084229",
 "organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
@@ -32702,7 +32712,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hOAXU8c6ESbU0FcTaVguW5w9zrTb360lVcgXqfY1vkC7bHzdvkbgEBIl%2BlV1V73ml6qSVsh7e7kPDGpFDRKjnNkLNfPIXonZL/ZNGx40IGQZyAJWGsSt0OzTSTyw9JAs",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=U9KYjWGkeubVGIpKDxgsAQ%3D%3D",
 "primera_deteccion": "2026-10-15",
-"cambios": []
+"cambios": [
+"2026-11-03: estado PUB → EV"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19814318": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19814318",
@@ -33041,7 +33053,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20427130": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20427130",
-"actualizado": "2026-10-23T11:31:10Z",
+"actualizado": "2026-11-02T13:35:05Z",
 "estado": "EV",
 "tipo": "3",
 "expediente": "OBR/ABR_SMPL/2026000139",
@@ -33312,7 +33324,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20415825": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20415825",
-"actualizado": "2026-10-30T09:11:29Z",
+"actualizado": "2026-11-02T13:22:40Z",
 "estado": "ADJ",
 "tipo": "3",
 "expediente": "OBR/ABR_SMPL/2026000138",
@@ -34474,7 +34486,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20417047": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20417047",
-"actualizado": "2026-10-20T07:32:03Z",
+"actualizado": "2026-11-02T12:49:04Z",
 "estado": "EV",
 "tipo": "3",
 "expediente": "CMAYOR/2026/17Y03/0013",
@@ -38100,7 +38112,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20697655": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20697655",
-"actualizado": "2026-10-15T16:24:46Z",
+"actualizado": "2026-11-02T10:53:32Z",
 "estado": "PUB",
 "tipo": "3",
 "expediente": "OB-2026-3",
@@ -38569,8 +38581,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20697759": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20697759",
-"actualizado": "2026-10-20T11:13:40Z",
-"estado": "PUB",
+"actualizado": "2026-11-02T09:43:13Z",
+"estado": "EV",
 "tipo": "3",
 "expediente": "11682/2026",
 "organo": "Junta de Gobierno del Ayuntamiento de Algemesí",
@@ -38598,7 +38610,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=8lm9oiOUozxGtBIjCFvPqgAAIQleZ98Bg/24KfYg3aA7lEnBAINIU3oVr7Gzx6S0nnzjbCcz5KSh9yH8VE49ZyB73N9UxLnQTjm/IXTsVMq1aXEvq3KHa/AEHgtDrQw0",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3h%2BI7NdoNMJSYrkJkLlFdw%3D%3D",
 "primera_deteccion": "2026-10-16",
-"cambios": []
+"cambios": [
+"2026-11-03: estado PUB → EV"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20697765": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20697765",
@@ -39447,8 +39461,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20151076": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20151076",
-"actualizado": "2026-10-15T11:32:11Z",
-"estado": "ADJ",
+"actualizado": "2026-11-02T12:08:44Z",
+"estado": "RES",
 "tipo": "3",
 "expediente": "DANA_Tor11.4",
 "organo": "Gerencia de Aigües de l'Horta S.A.",
@@ -39466,11 +39480,11 @@
 "plazo_ejecucion": "3 meses",
 "clasificacion": [],
 "criterios": [
-"Memoria constructiva. 14 (JV)",
-"Proposición económica (Anexo II) 70",
-"Plan de igualdad (Anexo II) 2",
+"Ampliación de plazo de garantía (Anexo II) 4",
 "Plan de obra. 10 (JV)",
-"Ampliación de plazo de garantía (Anexo II) 4"
+"Proposición económica (Anexo II) 70",
+"Memoria constructiva. 14 (JV)",
+"Plan de igualdad (Anexo II) 2"
 ],
 "pct_jv": 24.0,
 "garantias": [
@@ -39482,7 +39496,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=96TO0FZvTwIvRyGdZKkqzJXsHd1CVxJdwMcoR0tijgZpmbLV1NMlVDVYw84j/06CB888b3pwbyfcQTR7XNDyGKLUh6jD1zo09tPEKx9Fj%2BPVTD3T98KC0nSgQFM0q%2B5s",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=IO79yqPVq5zjHF5qKI4aaw%3D%3D",
 "primera_deteccion": "2026-10-16",
-"cambios": []
+"cambios": [
+"2026-11-03: estado ADJ → RES"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19918328": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19918328",
@@ -40133,7 +40149,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19688223": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19688223",
-"actualizado": "2026-10-15T10:51:05Z",
+"actualizado": "2026-11-02T11:45:43Z",
 "estado": "EV",
 "tipo": "3",
 "expediente": "58/2026",
@@ -43214,8 +43230,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20698418": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20698418",
-"actualizado": "2026-10-14T21:54:28Z",
-"estado": "PUB",
+"actualizado": "2026-11-02T15:23:15Z",
+"estado": "EV",
 "tipo": "3",
 "expediente": "1025/2026",
 "organo": "Alcaldia del Ayuntamiento de Benimodo",
@@ -43248,7 +43264,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=S8M92rZFwDzrcnI5Lth735xMuQc54MltPSCREzHR95JTG7aPUVu08ykOY7BoEha0DHS4g/OvMgq7XDsN2MKwxGo52oyZwrvPXB%2BFCtb3GjH6CYyL7SIrUOBFfNf52ZqA",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=FU3l0XS47RU2wEhQbcAqug%3D%3D",
 "primera_deteccion": "2026-10-16",
-"cambios": []
+"cambios": [
+"2026-11-03: estado PUB → EV"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20233604": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20233604",
@@ -44822,7 +44840,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20705541": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20705541",
-"actualizado": "2026-10-16T11:49:44Z",
+"actualizado": "2026-11-02T10:10:51Z",
 "estado": "PUB",
 "tipo": "3",
 "expediente": "3543/2026",
@@ -49216,8 +49234,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20480919": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20480919",
-"actualizado": "2026-10-16T07:20:56Z",
-"estado": "EV",
+"actualizado": "2026-11-02T07:40:09Z",
+"estado": "RES",
 "tipo": "3",
 "expediente": "JGL-OBR/2026000046",
 "organo": "Junta de Gobierno del Ayuntamiento de La Vall d'Uixó",
@@ -49247,7 +49265,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=rFhJdH3UM9XeWGirJHZe0rBcBVXofDtkMuRhuXLPaTyHhNUu9jyNvRay59CEb2iLwtA61Rg%2Bp48KYQ8Qqloh%2BHMrVqZNAgvKGmu1uCtddyA//q7NB2iMZvNyf0xrJmjt",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=bLoMUlpvgqHL1rX3q%2FMAPA%3D%3D",
 "primera_deteccion": "2026-10-19",
-"cambios": []
+"cambios": [
+"2026-11-03: estado EV → RES"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20447134": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20447134",
@@ -53333,7 +53353,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20715726": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20715726",
-"actualizado": "2026-10-28T11:30:53Z",
+"actualizado": "2026-11-02T08:15:28Z",
 "estado": "PUB",
 "tipo": "3",
 "expediente": "18/26",
@@ -56541,8 +56561,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20417241": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20417241",
-"actualizado": "2026-10-19T06:27:02Z",
-"estado": "EV",
+"actualizado": "2026-11-02T12:12:50Z",
+"estado": "ADJ",
 "tipo": "2",
 "expediente": "SERV/2026000052",
 "organo": "Junta de Gobierno del Ayuntamiento Dénia",
@@ -56562,8 +56582,8 @@
 "plazo_ejecucion": "1 años",
 "clasificacion": [],
 "criterios": [
-"Criterios evaluables automáticamente 75",
-"Criterios evaluables en base a juicios de valor 25 (JV)"
+"Criterios evaluables en base a juicios de valor 25 (JV)",
+"Criterios evaluables automáticamente 75"
 ],
 "pct_jv": 25.0,
 "garantias": [],
@@ -56573,7 +56593,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=GvOio/sIQMyHoIv4f1gWQGTLv3nXIz2SAKED04joDVyWDiFtqI%2B1S1KXclYd4pR6WLKFo%2B/ELyAG2nR6wMqsmNfqFRJ1AIpRbI/oJy9hZGnVTD3T98KC0nSgQFM0q%2B5s",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lLP882hKUtOsNfRW6APEDw%3D%3D",
 "primera_deteccion": "2026-10-20",
-"cambios": []
+"cambios": [
+"2026-11-03: estado EV → ADJ"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19957419": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19957419",
@@ -57946,7 +57968,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20573339": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20573339",
-"actualizado": "2026-10-22T09:33:07Z",
+"actualizado": "2026-11-02T11:57:30Z",
 "estado": "EV",
 "tipo": "3",
 "expediente": "TSA0084172",
@@ -58325,8 +58347,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19938876": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19938876",
-"actualizado": "2026-10-21T11:43:43Z",
-"estado": "ADJ",
+"actualizado": "2026-11-02T13:23:35Z",
+"estado": "RES",
 "tipo": "3",
 "expediente": "CMAYOR/2026/39Y14/0002",
 "organo": "Dirección Territorial de Educación y Universidades de Castellón",
@@ -58354,7 +58376,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hOAXU8c6ESbU0FcTaVguW4gpQoI/TJovOu%2B2FdrdkNZd5dShypuZKsgH4Gkfg6EOPLjaUePBhYykcCRwiCUSmn9yQB6JnAntEqaEFl6UPXD3GVhXrFFqN7yFncy7YfRK",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=L%2BzSHpo6f5L9pbnDwlaUlg%3D%3D",
 "primera_deteccion": "2026-10-22",
-"cambios": []
+"cambios": [
+"2026-11-03: estado ADJ → RES"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20659028": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20659028",
@@ -61400,8 +61424,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20060485": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20060485",
-"actualizado": "2026-10-21T08:25:47Z",
-"estado": "ADJ",
+"actualizado": "2026-11-02T14:08:33Z",
+"estado": "RES",
 "tipo": "3",
 "expediente": "7405/2026",
 "organo": "Alcaldía del Ayuntamiento de Villajoyosa",
@@ -61432,7 +61456,9 @@
 "url_ppt": "",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=gcfflPRMkV0Xhk1FZxEyvw%3D%3D",
 "primera_deteccion": "2026-10-22",
-"cambios": []
+"cambios": [
+"2026-11-03: estado ADJ → RES"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20743271": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20743271",
@@ -62479,8 +62505,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20297086": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20297086",
-"actualizado": "2026-10-21T07:13:07Z",
-"estado": "ADJ",
+"actualizado": "2026-11-02T13:19:32Z",
+"estado": "RES",
 "tipo": "3",
 "expediente": "1001/2026",
 "organo": "Alcaldía del Ayuntamiento de Villajoyosa",
@@ -62499,9 +62525,9 @@
 "plazo_ejecucion": "2 meses",
 "clasificacion": [],
 "criterios": [
-"Mejora de plazo de ejecución 10 (JV)",
+"Precio 70",
 "Aportación carta de compromiso por almacén 20 (JV)",
-"Precio 70"
+"Mejora de plazo de ejecución 10 (JV)"
 ],
 "pct_jv": 30.0,
 "garantias": [],
@@ -62511,7 +62537,9 @@
 "url_ppt": "",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7MGzXrUmNZUaF6cS8TCh%2FA%3D%3D",
 "primera_deteccion": "2026-10-22",
-"cambios": []
+"cambios": [
+"2026-11-03: estado ADJ → RES"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20416638": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20416638",
@@ -66082,8 +66110,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20571300": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20571300",
-"actualizado": "2026-10-22T10:46:21Z",
-"estado": "EV",
+"actualizado": "2026-11-02T14:08:42Z",
+"estado": "ADJ",
 "tipo": "3",
 "expediente": "3036693E",
 "organo": "Junta de Gobierno del Ayuntamiento de Silla",
@@ -66112,7 +66140,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Mo/NJEzd9GO4TPexrf1weZ3crQMVcFUTwtEiXrXaiWdEdXn14Wn4rP3eEPADaau9YCCLXg8N7ycL3SPZr711Am1pJUCZBl35wjm2XD0grlMC1/zDIE0Kw/PWNnLS0Z0z",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iWEKKg0URCotm4eBPtV6eQ%3D%3D",
 "primera_deteccion": "2026-10-22",
-"cambios": []
+"cambios": [
+"2026-11-03: estado EV → ADJ"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20743845": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20743845",
@@ -66240,7 +66270,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20621383": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20621383",
-"actualizado": "2026-10-26T12:04:32Z",
+"actualizado": "2026-11-02T13:13:14Z",
 "estado": "EV",
 "tipo": "2",
 "expediente": "2026000024",
@@ -67575,7 +67605,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20139361": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20139361",
-"actualizado": "2026-10-27T07:50:05Z",
+"actualizado": "2026-11-02T07:35:51Z",
 "estado": "EV",
 "tipo": "3",
 "expediente": "70106/2026",
@@ -69131,7 +69161,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20233682": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20233682",
-"actualizado": "2026-10-22T12:19:00Z",
+"actualizado": "2026-11-02T06:50:21Z",
 "estado": "EV",
 "tipo": "3",
 "expediente": "2813654D",
@@ -71105,7 +71135,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20571390": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20571390",
-"actualizado": "2026-10-22T09:51:57Z",
+"actualizado": "2026-11-02T13:39:05Z",
 "estado": "EV",
 "tipo": "3",
 "expediente": "OBR/ABR_SMPL/2026000154",
@@ -71832,7 +71862,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20757765": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20757765",
-"actualizado": "2026-10-28T12:42:14Z",
+"actualizado": "2026-11-02T13:04:43Z",
 "estado": "PUB",
 "tipo": "2",
 "expediente": "7076/2026-C26/26",
@@ -72300,8 +72330,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20571677": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20571677",
-"actualizado": "2026-10-22T08:00:32Z",
-"estado": "ADJ",
+"actualizado": "2026-11-02T07:08:33Z",
+"estado": "RES",
 "tipo": "3",
 "expediente": "CONT-043/2026 (33774/2026)",
 "organo": "Concejalía Delegada de Contratación del Ayuntamiento de Gandía",
@@ -72331,7 +72361,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=w3/AbuU2ovYZcK3MnuWqtPiRX%2Bs3LPlnFUod1AuoW%2B1rO7JeOXkOnxkKyNYNLp3O5XAeecuevrVxKLJzkMXdvKttoMW3aYyqa2GFUy94NFEZyAJWGsSt0OzTSTyw9JAs",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VXITiTNQZKcQyBAnWzHfCg%3D%3D",
 "primera_deteccion": "2026-10-23",
-"cambios": []
+"cambios": [
+"2026-11-03: estado ADJ → RES"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20757880": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20757880",
@@ -78858,7 +78890,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20768005": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20768005",
-"actualizado": "2026-10-23T07:00:49Z",
+"actualizado": "2026-11-02T08:15:53Z",
 "estado": "PUB",
 "tipo": "3",
 "expediente": "PAS 736/2026",
@@ -79298,7 +79330,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20768031": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20768031",
-"actualizado": "2026-10-26T08:01:35Z",
+"actualizado": "2026-11-02T11:39:17Z",
 "estado": "PUB",
 "tipo": "3",
 "expediente": "CONT-074/2026 (50124/2026)",
@@ -79310,7 +79342,7 @@
 "importe": 2070399.74,
 "valor_estimado": 2070399.74,
 "procedimiento": "1",
-"fecha_limite": "2026-11-19 14:00",
+"fecha_limite": "2026-11-30 14:00",
 "nuts": "ES523",
 "provincia_txt": "Valencia/València",
 "municipio": "",
@@ -79320,20 +79352,22 @@
 ],
 "criterios": [
 "Ampliación plazo de garantía 8",
-"Incorporación de mejoras 27",
 "Conocimiento del proyecto 10 (JV)",
-"Metodología y programación 15 (JV)",
-"Oferta económica 40"
+"Oferta económica 40",
+"Incorporación de mejoras 27",
+"Metodología y programación 15 (JV)"
 ],
 "pct_jv": 25.0,
 "garantias": [],
 "revision_precios": "",
 "lotes": 0,
-"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QfLUTTJ1LF%2BUAVdDLPgyTVnaMQIfLQehVE1dpVZxvVj%2BYiz72BpEc548bbRkgzM8gHD7xBdHMGh4AFaR5ny5HeLoD1pTcqfJ3/qQD3Q%2BU1nfdyQgZAdTm3EfcUAC7CJ6",
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=bUvbzQjaUbnxn2niKxKoW/J7fiRKbrxNhV21G9m23clcbKeLZqY3W0quz5sOGO20%2B%2BGligenEHaQK7JJrdMD/uaIhadGeKQj86yAzoPA5Ftt/o8fNevwsujgRzaBbugn",
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=V5ql47GUnU8Iti7bn9c9Qw9glL/GYcr5jW5haPTkA1sTJ6qfAApxhx8wiN2Lro1jK/TJv25f2Ons1BIVpEBQD6etIIQ7BHus1hfYNnEJ7trfdyQgZAdTm3EfcUAC7CJ6",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=sFkzQqi8nMT10HRJw8TEnQ%3D%3D",
 "primera_deteccion": "2026-10-26",
-"cambios": []
+"cambios": [
+"2026-11-03: plazo 2026-11-19 14:00 → 2026-11-30 14:00"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20768032": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20768032",
@@ -82349,8 +82383,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20499049": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20499049",
-"actualizado": "2026-10-26T10:29:55Z",
-"estado": "ADJ",
+"actualizado": "2026-11-02T10:18:43Z",
+"estado": "RES",
 "tipo": "3",
 "expediente": "O4SS-160/2026",
 "organo": "Presidencia de la Diputación Provincial de Alicante",
@@ -82378,7 +82412,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=oEeIrhnj48i5TIv5dVbcGd7aaZjVtrQToa4rAMCrUbQFmqx1i14wUNnTCOxhccWKxCdbh4kPZZfWchAHa4Oxig%2BSoJAIIY95krAxNkz/sClt/o8fNevwsujgRzaBbugn",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=8TIdq7ExyzFPpzdqOdhuWg%3D%3D",
 "primera_deteccion": "2026-10-27",
-"cambios": []
+"cambios": [
+"2026-11-03: estado ADJ → RES"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20780112": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20780112",
@@ -83774,7 +83810,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20545530": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20545530",
-"actualizado": "2026-10-26T07:11:32Z",
+"actualizado": "2026-11-02T11:38:32Z",
 "estado": "EV",
 "tipo": "1",
 "expediente": "662/2026",
@@ -86226,7 +86262,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20603479": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20603479",
-"actualizado": "2026-10-27T11:32:01Z",
+"actualizado": "2026-11-02T07:37:17Z",
 "estado": "EV",
 "tipo": "3",
 "expediente": "3706/2026",
@@ -87384,8 +87420,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/18304271": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/18304271",
-"actualizado": "2026-10-27T09:50:58Z",
-"estado": "ADJ",
+"actualizado": "2026-11-02T07:53:51Z",
+"estado": "RES",
 "tipo": "3",
 "expediente": "O4S-222/2025",
 "organo": "Presidencia de la Diputación Provincial de Alicante",
@@ -87406,9 +87442,9 @@
 "criterios": [
 "b.1.3) Medidas a adoptar por la empresa para la reducción de las emisiones y del volumen de residuos generados, y/o la mejora de la gestión medioambiental. 5 (JV)",
 "b.1.2) Idoneidad y organización de los medios (personales y materiales), así como las instala-ciones auxiliares necesarias a disposición de la ejecución de la obra. 10 (JV)",
-"b.1.1) Estudio y conocimiento del proyecto, eficiencia en la ejecución del proceso constructivo de la obra y propuestas para resolver eventuales dificultades de la obra o afecciones detectadas. 10 (JV)",
 "a. 2) Mejora/prestación adicional sin cargo definida por la Diputación de Alicante. 20",
-"a. 1 Mejor oferta económica, respecto al presupuesto de licitación. 55"
+"a. 1 Mejor oferta económica, respecto al presupuesto de licitación. 55",
+"b.1.1) Estudio y conocimiento del proyecto, eficiencia en la ejecución del proceso constructivo de la obra y propuestas para resolver eventuales dificultades de la obra o afecciones detectadas. 10 (JV)"
 ],
 "pct_jv": 25.0,
 "garantias": [
@@ -87420,7 +87456,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Dql4XjWIrRA5SLz%2B8dlQ1bZJfQsARmXUD/8H05P1TXylAEc%2B6GwbM9dTDwuekMkp2CKTMo%2Bj4hMmABCoXhJ7W1hJmXOhGqv8%2BjOyOZ9DGNr3GVhXrFFqN7yFncy7YfRK",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VTTubZqB5WeIzo3LHNPGcQ%3D%3D",
 "primera_deteccion": "2026-10-28",
-"cambios": []
+"cambios": [
+"2026-11-03: estado ADJ → RES"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20479905": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20479905",
@@ -87495,7 +87533,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20232305": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20232305",
-"actualizado": "2026-10-27T09:46:39Z",
+"actualizado": "2026-11-02T07:35:44Z",
 "estado": "EV",
 "tipo": "3",
 "expediente": "453/2025",
@@ -88308,7 +88346,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20788379": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20788379",
-"actualizado": "2026-10-27T08:24:57Z",
+"actualizado": "2026-11-02T11:59:24Z",
 "estado": "PUB",
 "tipo": "2",
 "expediente": "70002-2026-350",
@@ -91281,8 +91319,8 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19606111": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19606111",
-"actualizado": "2026-10-28T10:45:35Z",
-"estado": "ADJ",
+"actualizado": "2026-11-02T08:23:29Z",
+"estado": "RES",
 "tipo": "3",
 "expediente": "O4S-023/2026",
 "organo": "Presidencia de la Diputación Provincial de Alicante",
@@ -91313,7 +91351,9 @@
 "url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=mRUx8yfCnKSx3cRoxbPtPS%2B4eG3RVXVmZP2jiBKNsV7mKJOVxD7vw66ntl2ewCFG01noZUyTxKth9N3g0Jx6dxk/iQ4Fd0Whs9AMi7g6uPRt/o8fNevwsujgRzaBbugn",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=G%2FssM%2FgyCVKcTfjQf3USOg%3D%3D",
 "primera_deteccion": "2026-10-29",
-"cambios": []
+"cambios": [
+"2026-11-03: estado ADJ → RES"
+]
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20798139": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20798139",
@@ -91350,7 +91390,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20798148": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20798148",
-"actualizado": "2026-10-28T10:29:20Z",
+"actualizado": "2026-11-02T10:05:15Z",
 "estado": "PUB",
 "tipo": "3",
 "expediente": "3145/2026",
@@ -97659,7 +97699,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/18181894": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/18181894",
-"actualizado": "2026-11-01T11:41:57Z",
+"actualizado": "2026-11-02T08:00:00Z",
 "estado": "RES",
 "tipo": "3",
 "expediente": "2025/001028",
@@ -97778,7 +97818,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20823743": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20823743",
-"actualizado": "2026-11-01T07:27:11Z",
+"actualizado": "2026-11-02T08:00:00Z",
 "estado": "PUB",
 "tipo": "3",
 "expediente": "9815/2025",
@@ -97800,10 +97840,10 @@
 "E*-6"
 ],
 "criterios": [
-"Criterio 3. Experiencia del jefe de obra 20",
-"Memoria 35 (JV)",
 "Criterio 1. Mejor oferta económica 35",
-"Criterio 2. Ampliación plazo garantía 10"
+"Memoria 35 (JV)",
+"Criterio 2. Ampliación plazo garantía 10",
+"Criterio 3. Experiencia del jefe de obra 20"
 ],
 "pct_jv": 35.0,
 "garantias": [
@@ -97867,7 +97907,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19522224": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19522224",
-"actualizado": "2026-10-31T17:41:54Z",
+"actualizado": "2026-11-02T08:00:00Z",
 "estado": "RES",
 "tipo": "2",
 "expediente": "RDS260410",
@@ -99443,7 +99483,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20815862": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20815862",
-"actualizado": "2026-10-30T12:27:48Z",
+"actualizado": "2026-11-02T10:10:40Z",
 "estado": "PUB",
 "tipo": "3",
 "expediente": "OBR-26-0312-SOM",
@@ -99457,18 +99497,18 @@
 "procedimiento": "1",
 "fecha_limite": "2026-11-30 14:00",
 "nuts": "ES616",
-"provincia_txt": "",
+"provincia_txt": "Jaén",
 "municipio": "",
 "plazo_ejecucion": "10 meses",
 "clasificacion": [
 "C4-4"
 ],
 "criterios": [
-"Ampliación plazo garantía 5",
-"Memoria Técnica 20 (JV)",
-"Precio 60",
-"Propuestas de mejoras de Seguridad en la obra 5 (JV)",
 "Medios auxiliares  adscritos en exclusividad a la obra y personal 5 (JV)",
+"Ampliación plazo garantía 5",
+"Propuestas de mejoras de Seguridad en la obra 5 (JV)",
+"Precio 60",
+"Memoria Técnica 20 (JV)",
 "Propuestas de mejoras de la Eficiencia energética 5 (JV)"
 ],
 "pct_jv": 35.0,
@@ -99477,8 +99517,8 @@
 ],
 "revision_precios": "",
 "lotes": 0,
-"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3amqfAdMPQJPqn%2BOLc8rI3N/1QH852gIwGeYP0RxwTWXsqeI/R12IzIL5NV%2BFDngENsTsT28k6bEDTRiBX%2BAhMhEvqTcbGNwRM6e3E1ouMl7QB3HKyQaFUExmUVQCerk",
-"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=T8XjLW6kXt885/Jb4MWU06/xO2Lyb8HRxVn1LeUnOhwxiR6VqRpleFML2/7Z6Po5BpQD3T5jSpjKHudc8QTyzM4z1IOcXf%2B5WOZWPeHtKNmHAj0WEJrB5sP7amrh2jBD",
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3TtpgjirGTl8M7YRbFGJ4GTgb98jvOOvgu7E6ZXc7hgPFCorjimrbwOVYORab/f6wI2S3Uk8hQs8xEiiFmptPRWBPBS4kLTwYA3UqA9CFYsZyAJWGsSt0OzTSTyw9JAs",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=WmlvI0dNQKAHuasWDPiuEwyMkk1n6kuky9hLwEWoFhV6Iw90Vyz2bD%2BrvVqEQC%2B3HRaOMNEl0uvUjPSnODqE9CoiBq5jq6FzNtN1NJzEFzT6CYyL7SIrUOBFfNf52ZqA",
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZlFMjJZjn67pxJFXpLZ%2B2A%3D%3D",
 "primera_deteccion": "2026-11-02",
 "cambios": []
@@ -100636,7 +100676,7 @@
 },
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20816078": {
 "id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20816078",
-"actualizado": "2026-10-30T10:53:13Z",
+"actualizado": "2026-11-02T08:00:00Z",
 "estado": "PRE",
 "tipo": "3",
 "expediente": "OB-01/2026",
@@ -102489,6 +102529,1620 @@
 "url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=6DMMMyRaavq5HQrHoP3G5A%3D%3D",
 "primera_deteccion": "2026-11-02",
 "cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19724198": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19724198",
+"actualizado": "2026-11-02T17:42:48Z",
+"estado": "RES",
+"tipo": "2",
+"expediente": "2723652A",
+"organo": "Alcaldía del Ayuntamiento de Xirivella",
+"objeto": "Mantenimiento de instalaciones eléctricas de baja tensión, centros de transformación, grupos electrógenos, SAI y pararrayos",
+"cpv": [
+"71314100",
+"45315600",
+"45315400",
+"45259000"
+],
+"importe": 53469.9,
+"valor_estimado": 64163.88,
+"procedimiento": "9",
+"fecha_limite": "2026-06-05 23:59",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "",
+"plazo_ejecucion": "2 años",
+"clasificacion": [],
+"criterios": [
+"Mejor oferta económica 100",
+"Memoria descriptiva de la prestación del servicio 100 (JV)"
+],
+"pct_jv": 50.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 5,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1BXw0qlW1FYy1q3FZPmu7lk3%2Bmu1xAiesSjh92JQv0/eUccEy%2BicIzzNLUtIqWeYlRWLkRoQMB7WYD3QYZglK6cqzRivRyswVFeHw/rXpQj3GVhXrFFqN7yFncy7YfRK",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=swiOQQ0qDFXvb5FdvGU8MaQ9XekmMWmXpuaONal3zoqMx12pyIBt6h0K075QBfyBXrIsbQalzzV0ffTntBusx0jSLhXz2EttEIHKS/BnYkpJOVDbGCDM%2BMigrvuVS7Rv",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ApN9IYypVBTN3k3tjedSGw%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20112931": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20112931",
+"actualizado": "2026-11-02T17:32:40Z",
+"estado": "ADJ",
+"tipo": "3",
+"expediente": "26/046",
+"organo": "Gerencia de Ferrocarrils de la Generalitat Valenciana",
+"objeto": "Ejecución de las obras del proyecto de construcción de actuaciones de adecuación de gálibos y actuaciones complementarias para la serie 4.500 en Talleres Naranjos (Metrovalencia).T.M. València (València).",
+"cpv": [
+"45234180",
+"45262211",
+"45234121"
+],
+"importe": 4299136.53,
+"valor_estimado": 4299136.53,
+"procedimiento": "1",
+"fecha_limite": "2026-09-01 12:00",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "",
+"plazo_ejecucion": "9 meses",
+"clasificacion": [
+"D5-5"
+],
+"criterios": [
+"Documentacion evaluable automaticamente (fórmula) OFERTA ECONOMICA 55",
+"Documentacion evaluable por juicio de valor. OFERTA TECNICA 45 (JV)"
+],
+"pct_jv": 45.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=n%2BkZMm/68AIPRG3yE1q7ifiV8O35KfEYysBnnzpCfHVq9Ie35jReusCHYZ2BQHnSBHYWsO1j3z1%2BRmWXVxuQSl3EJKYzwLNE3pH5KfGwclVJOVDbGCDM%2BMigrvuVS7Rv",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=BhsZQ8pLHQ5/TRS5CYml2J0oVIw0eS7Az4hBGjXWCnYZyDOUiYPqM0ub5f0QimncD9mtHyXJJNQaUG6EyYBtaeXQoAVh5RIV27IP5KZXw4l7QB3HKyQaFUExmUVQCerk",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QmMPGRT0knprSd8H4b2soA%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824187": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824187",
+"actualizado": "2026-11-02T14:54:09Z",
+"estado": "PUB",
+"tipo": "3",
+"expediente": "2998008A II",
+"organo": "Alcaldía del Ayuntamiento de Gestalgar",
+"objeto": "Contrato de obras del proyecto de emergencia de red viaria de Gestalgar (Valencia) subvencionado por el Ministerio de Política Territorial y Memoria Democrática.",
+"cpv": [
+"45233142",
+"45233140"
+],
+"importe": 345942.39,
+"valor_estimado": 345942.39,
+"procedimiento": "9",
+"fecha_limite": "2026-11-23 23:59",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "GESTALGAR",
+"plazo_ejecucion": "5 meses",
+"clasificacion": [],
+"criterios": [
+"Oferta económica 70",
+"Ampliación del plazo de garantía 15",
+"Plazo de ejecución 15"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=yJPMxGubVTwrsHuUvfCKRlrkzM2uYt0YeqGn7WgDEv0D%2BDIMWJ3U2%2B8w9trk3wBfIqkWwuTIM2GDX64BMu7AdhMJmxGxpOgb1zQsXzlWjOfDdQD9RyhUmzT4jZ2In4zL",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ReB71Et%2BlCwZ/X%2Bi2AGfwjUQ33rWO//Aku9iyJoYuzu4Y1%2BBGdTZr5waaiED7o9wGVYbV0/g4PcgH5GPt9HVFeN63jb4zZmFbYAuTK%2BPKjqHAj0WEJrB5sP7amrh2jBD",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=TImz4%2FlruetrhBlEHQFSKA%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/12571625": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/12571625",
+"actualizado": "2026-11-02T14:17:16Z",
+"estado": "RES",
+"tipo": "3",
+"expediente": "TSA0075289",
+"organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+"objeto": "Trabajos de colocación de elementos para instalación de climatización y ventilación en el marco de la obra de emergencia “actuaciones necesarias para la inspección y consolidación de los sistemas de soporte y sustentación, así como las acciones que den estabilidad a los falsos techos del hospital doctor Peset en Valencia",
+"cpv": [
+"45331220"
+],
+"importe": 87980.5,
+"valor_estimado": 87980.5,
+"procedimiento": "9",
+"fecha_limite": "2023-05-11 14:00",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "",
+"plazo_ejecucion": "8 meses",
+"clasificacion": [
+"J2-1"
+],
+"criterios": [
+"PRECIO 100"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "El adjudicatario renuncia a la revisión de los precios ofertados",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=e5e6995e-1eee-417e-b342-e8b965a41086",
+"url_ppt": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=9a1098e2-9c94-45c5-8634-fe3964747571",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iWNTFTBOM5kQyBAnWzHfCg%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20571343": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20571343",
+"actualizado": "2026-11-02T14:16:29Z",
+"estado": "EV",
+"tipo": "3",
+"expediente": "17814/2026",
+"organo": "Alcaldía del Ayuntamiento de Santa Pola",
+"objeto": "Licitación para la contratación de las Obras de remodelación de los jardines de Villa-Adelaida en Santa Pola, susceptible de ser cofinanciado por la UE a través del Fondo Europeo de Desarrollo Regiona",
+"cpv": [
+"45112700",
+"45100000"
+],
+"importe": 1077568.15,
+"valor_estimado": 1293081.78,
+"procedimiento": "9",
+"fecha_limite": "2026-10-14 18:00",
+"nuts": "ES521",
+"provincia_txt": "",
+"municipio": "Alicante (Alacant)",
+"plazo_ejecucion": "6 meses",
+"clasificacion": [
+"K6-2",
+"G*-2"
+],
+"criterios": [
+"Precio 40",
+"A.2.2. Ampliación del plazo de arraigo y reposición de jardinería 15 (JV)",
+"A.2.1. Ampliación del plazo de garantía general de las obras 15 (JV)",
+"A.3.1. Maquinaria, vehículos o equipos auxiliares con mejores prestaciones ambientales 20 (JV)",
+"A.3.2. Digitalización de la documentación ambiental de obra 10 (JV)"
+],
+"pct_jv": 60.0,
+"garantias": [],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=E0IDtwcd3S3lAkBK6D3G61bNtdj7f%2BDWTBegHbvABp9yZavYp7xY7vH1i/9M0i6zq4j7xZfyvwHCvaaa10FarHA2GxXp1ZFoGmx%2B4DKt3i3fdyQgZAdTm3EfcUAC7CJ6",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=VADnAGXycshjsGsVk8VBbZZIGULhy1qJ/oqBh7/p7KN3Hhb7WWTd7VEOhHZ0mgnrCqyuXkt3h17Sw1CGae7uyUXT86K16tdIGoywy1sDT3P3GVhXrFFqN7yFncy7YfRK",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2Ffsfk38MRGKP%2Bo96UAV7cQ%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824201": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824201",
+"actualizado": "2026-11-02T13:56:52Z",
+"estado": "PUB",
+"tipo": "3",
+"expediente": "4/2026",
+"organo": "Pleno del Ayuntamiento de Llocnou d'en Fenollet",
+"objeto": "campo de césped artificial para futbol 7/8 (367/26/cop)",
+"cpv": [
+"45236119",
+"45212221"
+],
+"importe": 308252.51,
+"valor_estimado": 308252.51,
+"procedimiento": "9",
+"fecha_limite": "2026-11-22 23:59",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "llocnou d'en fenollet",
+"plazo_ejecucion": "3 meses",
+"clasificacion": [],
+"criterios": [
+"precio mas ventajoso 100"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "No",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=mL365uQDQGTntoZ93/XYOnFfYMswHxzgUgjJE/vzp8hRJJJkL%2BDUX1yj4dvmj7aPt5fUx2HOM8vEXF2lqfyAqImOqXdaDEqdKpzIK6QnR0U//q7NB2iMZvNyf0xrJmjt",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=FZJMNZcey3xG/kVX7sg3WBsZqGlQH4nr8O/ri4qG8rcyihdV0ou3n5vBtCIbnqy1ay4Klbth4iuvIL6QR2CjTy0CFmWdPceHnrr8KNKOr4j3GVhXrFFqN7yFncy7YfRK",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EA6vWxysG0BVkTabT%2FRM8A%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19371800": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19371800",
+"actualizado": "2026-11-02T13:50:05Z",
+"estado": "ADJ",
+"tipo": "3",
+"expediente": "CMAYOR/2026/EPSAR/0039",
+"organo": "Vicepresidencia del Consejo de Administración de la Entidad Pública de Saneamiento de Aguas Residuales de la Comunidad Valenciana",
+"objeto": "Obras de construcción de los nuevos colectores y EBAR del casco urbano de Moncofa (Castellón)",
+"cpv": [
+"45232440",
+"45232431"
+],
+"importe": 2201179.56,
+"valor_estimado": 2421297.52,
+"procedimiento": "1",
+"fecha_limite": "2026-05-07 14:00",
+"nuts": "ES522",
+"provincia_txt": "Castellón/Castelló",
+"municipio": "",
+"plazo_ejecucion": "16 meses",
+"clasificacion": [
+"E1-4"
+],
+"criterios": [
+"Número de obras similares efectuadas por el/la jefe de obra, responsable de obra civil y el/la responsable de equipos electromecánicos en los últimos 25 años. 10",
+"Proposición económica 45",
+"Presencia equilibrada de mujeres y hombres en el personal adscrito al equipo de obra. 5",
+"Estabilidad en el empleo del equipo de obra. 5",
+"Titulaciones universitarias del/la jefe/a de obra, responsable de obra civil y del/la responsable de equipos electromecánicos. 3",
+"Compromiso de realizar la gestión medioambiental de la obra conforme al sistema de gestión ambiental UNE-EN ISO 14001 o similar, y su certificación. 2",
+"Memoria y programa de trabajos 12 (JV)",
+"Estudio de interferencias 18 (JV)"
+],
+"pct_jv": 30.0,
+"garantias": [],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iZ4onUFjEiGsIjMd/RYu67wJuEDGV023WcUlA9vCOHWcJ%2BdTeYRkSPF/QR1SzMQ7E2USUPSf/8si5%2BokpGaHzHaX8KxScuh1vrkajF4ZUI7fdyQgZAdTm3EfcUAC7CJ6",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iVr9XPOFOtSfIfoqTj%2BKLcsuheobreY7RqOOYAcWDbVIbeqP7vq8E6Ed9b61dfnAwc6qUKo2iVGRz3gI%2BKnMRs0cbsK%2BHqnOobDR0b66ijuB0nvVKRzfe4rpHcnlPhSZ",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=rOtW7IlPFnlVYjgxA4nMUw%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20447375": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20447375",
+"actualizado": "2026-11-02T13:39:51Z",
+"estado": "RES",
+"tipo": "3",
+"expediente": "OBR/2026000055",
+"organo": "Junta de Gobierno del Ayuntamiento Dénia",
+"objeto": "Ampliación del Cementerio Municipal de Dénia",
+"cpv": [
+"45215400"
+],
+"importe": 523349.57,
+"valor_estimado": 523349.57,
+"procedimiento": "9",
+"fecha_limite": "2026-10-07 23:59",
+"nuts": "ES521",
+"provincia_txt": "Alicante/Alacant",
+"municipio": "",
+"plazo_ejecucion": "6 meses",
+"clasificacion": [
+"G6-2",
+"C2-2"
+],
+"criterios": [
+"Criterios evaluables automáticamente 100"
+],
+"pct_jv": 0.0,
+"garantias": [],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lV/53/gXPZmCjpO0eEEzXYr45ysnjNXazn73PFdl5sMvDzyfigSqtKknQfdCh4Kh85p1ZkNi%2B2ZwRU5Q1wmT9dcXfKV9M1lDhj%2BHroWz1od45ClyWkoJ44mKM70IFcOu",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qu37%2BwRYj9R2YWlNnIU15DtZDYfFR38Mqmwrv8tqpWAUeguxZ16ar7iYrhIRU%2BprslE/67XUQGj5bEX6EzaddpGVilY%2BNXtIkAjDwSnPX773GVhXrFFqN7yFncy7YfRK",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=t%2FP%2B9pA4nEZ%2BF6L2uCfUWg%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20622488": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20622488",
+"actualizado": "2026-11-02T13:31:17Z",
+"estado": "EV",
+"tipo": "3",
+"expediente": "2984341T",
+"organo": "Junta de Gobierno Local del Ayuntamiento de Requena",
+"objeto": "Rehabilitación de retén de la policía local y adecuación para aulas DGT",
+"cpv": [
+"45216110"
+],
+"importe": 563669.32,
+"valor_estimado": 563669.32,
+"procedimiento": "9",
+"fecha_limite": "2026-10-26 14:00",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "",
+"plazo_ejecucion": "6 meses",
+"clasificacion": [],
+"criterios": [
+"b ) Mejora en el plazo máximo 20 puntos 20",
+"a) Mejora en el Precio, 80 puntos 80"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QtIdRQmJeZszo4XWd4GlSWoo3re1Uujp1eAKF8yZMqdNGE9X8dvVEAAjs3ZnmClfbb1/bS3cP5HDuLEC3PdvvGNug8kmVL6TAw8%2BcBfWeEX6CYyL7SIrUOBFfNf52ZqA",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=u3XfAQ4YHNQ1eRX1B4mhPENbhgNMOKl/XxQ54zVc0VXgn5COI0tA5EpjqlYrlvICcux4%2BNNur4JEnCKu/Jo2UPjlLcmBGWkyX0%2BlrhIoU%2B5JOVDbGCDM%2BMigrvuVS7Rv",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NUQOO4mnaWx%2BF6L2uCfUWg%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19698035": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19698035",
+"actualizado": "2026-11-02T13:24:42Z",
+"estado": "ADJ",
+"tipo": "3",
+"expediente": "CMAYOR/2026/EPSAR/0075",
+"organo": "Vicepresidencia del Consejo de Administración de la Entidad Pública de Saneamiento de Aguas Residuales de la Comunidad Valenciana",
+"objeto": "Obras de la conducción principal de la impulsión de aguas residuales en el Marenyet, del término municipal de Cullera (Valencia)",
+"cpv": [
+"45232440",
+"45232431"
+],
+"importe": 2073252.66,
+"valor_estimado": 2280577.93,
+"procedimiento": "1",
+"fecha_limite": "2026-06-25 14:00",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "",
+"plazo_ejecucion": "17 meses",
+"clasificacion": [
+"E1-4"
+],
+"criterios": [
+"Proposición económica 45",
+"Compromiso de realizar la gestión medioambiental de la obra conforme al sistema de gestión ambiental UNE-EN ISO 14001 o similar, y su certificación. 2",
+"Estudio de interferencias 18 (JV)",
+"Estabilidad en el empleo del equipo de obra. 5",
+"Número de obras similares efectuadas por el/la jefe de obra, responsable de obra civil y el/la responsable de equipos electromecánicos en los últimos 25 años. 10",
+"Memoria y programa de trabajos 12 (JV)",
+"Presencia equilibrada de mujeres y hombres en el personal adscrito al equipo de obra. 5",
+"Titulaciones universitarias del/la jefe/a de obra, responsable de obra civil y del/la responsable de equipos electromecánicos. 3"
+],
+"pct_jv": 30.0,
+"garantias": [],
+"revision_precios": "FÓRMULA NÚM. 561, del Real Decreto 1359/2011, de 7 de octubre, en su caso",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Hk7/q/PJKgOagV71dR8Q2kTD/kNNK5BAQ8/Z1tTDcwrG0x/tYOZ6rJYEHWhKZdtg1C545NJ3q1qeF42HleXSMIasWJcQ2HCBRRbESW0zJS1JOVDbGCDM%2BMigrvuVS7Rv",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=uWfkEQ8ktWShO21H8L4TQkkF1LWcmtG3XXIFNeplJWujwHJeTndiA0bngmXJtZPidKGR9vYWDhqS5PeeqilVoibAjy5pfG2w7vYy22ifN4OHAj0WEJrB5sP7amrh2jBD",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ndjFGKBmTvYwYTJJ03sHog%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824217": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824217",
+"actualizado": "2026-11-02T13:17:14Z",
+"estado": "PUB",
+"tipo": "3",
+"expediente": "2026-0740-COB-PAS",
+"organo": "Alcaldia del Ayuntamiento de Rafelbunyol",
+"objeto": "Reurbanización barri el PLÀ Capítulos 2 y 3.",
+"cpv": [
+"45233140",
+"45232410",
+"45233200",
+"45232400",
+"45233252"
+],
+"importe": 708327.89,
+"valor_estimado": 708327.89,
+"procedimiento": "9",
+"fecha_limite": "2026-11-22 23:59",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "",
+"plazo_ejecucion": "5 meses",
+"clasificacion": [
+"G6-3"
+],
+"criterios": [
+"5) AMPLIACIÓN DEL PLAZO DE GARANTÍA 15",
+"2) EXPERIENCIA PROFESIONAL DEL ENCARGADO A PIE DE OBRA 15",
+"4) DEDICACIÓN CON PRESENCIA FÍSICA EN OBRA DEL JEFE DE OBRA 10",
+"3) EXPERIENCIA PROFESIONAL DEL JEFE DE OBRA 15",
+"6) MEJORAS EN SEÑALIZACIÓN VIARIA 15",
+"1) BAJA ECONÓMICA AL PBL 20",
+"7) MEJORAS EN REVISIÓN DE RED DE SANEAMIENTO INSTALADA 10"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%",
+"complementaria 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=G0q5N7UN1JcSzbrWI9aDdjBUgYjda7HZz5jO/7d4xyov8TfueURWIcVzt6VuS45iNyEwFB2Y3FQMYp67CsKBQZWxBcbXjfcO48C6tQtfUlB45ClyWkoJ44mKM70IFcOu",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hoWvBog0CbEcp35pyyKsENUSTvzBEQ6bi3uLxl4NFWXLH5kIGXyYsbS7%2BaQ9vdwSOUvZ1mLmbqu1ydgFyS3mhaz39TfHpLxE1vjcJA1j2Ke1aXEvq3KHa/AEHgtDrQw0",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=LXBa%2Byemzmo7%2B9FIQYNjeQ%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824219": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824219",
+"actualizado": "2026-11-02T13:15:57Z",
+"estado": "RES",
+"tipo": "3",
+"expediente": "TSA0081958-008",
+"organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+"objeto": "UT2-contrato derivado del acuerdo marco para el alquiler de maquinaria autopropulsada con conductor en el ámbito territorial de la provincia de valencia durante dos anualidades, en el marco del plan de recuperación, transformacion y resiliencia financiado por la union europea - nextgenerationeu-prtr, y resto de encargos, N 0796052 DANA24 CAMINOS MAPA FINALI",
+"cpv": [
+"45500000"
+],
+"importe": 774760.8,
+"valor_estimado": 774760.8,
+"procedimiento": "1",
+"fecha_limite": "2026-09-09 18:00",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "",
+"plazo_ejecucion": "6 meses",
+"clasificacion": [],
+"criterios": [
+"Precio 100"
+],
+"pct_jv": 0.0,
+"garantias": [],
+"revision_precios": "El adjudicatario renuncia a la revisión de los precios ofertados.",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hOkna/JGJR6aD/ZhX8WpbQyGfLLQOnJNkw8elchfAdzinJUeiFleRAN7gGKCQuANHepT31lDg2RC53zmTDJfQtfV5aHRLptJd8w5w8HL/Hq1aXEvq3KHa/AEHgtDrQw0",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Wcrn%2BZIXNy/WKY7qc4xcoW17aP5W9obUdPR4JYJwryqTlw2%2BGa1jZK/dvUSt9n8s%2BhtW089lQwj4yBJC/dJFpWtOFiQWSmsJshsUGhRzqAuB0nvVKRzfe4rpHcnlPhSZ",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=s03SIj1xkk310HRJw8TEnQ%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/12072866": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/12072866",
+"actualizado": "2026-11-02T13:07:09Z",
+"estado": "RES",
+"tipo": "3",
+"expediente": "TSA0074859",
+"organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+"objeto": "Trabajos de reposición de las juntas de sifón para la obra “proyecto de estabilización de taludes, reparación de caminos de servicio, refuerzo de canal y reposición de juntas en acueducto de la matanza y sifón de Orihuela en el canal principal de la margen izquierda. tt.mm. varios (Murcia y Alicante)”.",
+"cpv": [
+"45232150"
+],
+"importe": 79472.02,
+"valor_estimado": 79472.02,
+"procedimiento": "9",
+"fecha_limite": "2023-02-24 14:00",
+"nuts": "ES521",
+"provincia_txt": "Alicante/Alacant",
+"municipio": "",
+"plazo_ejecucion": "10 meses",
+"clasificacion": [],
+"criterios": [
+"PRECIO 100"
+],
+"pct_jv": 0.0,
+"garantias": [],
+"revision_precios": "El adjudicatario renuncia a la revisión de los precios ofertados.",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=9dd36d28-1a22-4cd0-84ac-24730a4cf46e",
+"url_ppt": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f5eafe7b-98ab-4d65-96be-29966b3bfeb4",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QyjTxOOb%2B96iEJrVRqloyA%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20499739": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20499739",
+"actualizado": "2026-11-02T13:05:47Z",
+"estado": "ADJ",
+"tipo": "3",
+"expediente": "5919/2026",
+"organo": "Junta de Gobierno del Ayuntamiento de Villajoyosa",
+"objeto": "Obras pavimentación Calle Mestral",
+"cpv": [
+"45233222"
+],
+"importe": 221862.52,
+"valor_estimado": 221862.52,
+"procedimiento": "1",
+"fecha_limite": "2026-09-29 23:59",
+"nuts": "ES521",
+"provincia_txt": "",
+"municipio": "Alicante (Alacant)",
+"plazo_ejecucion": "2 meses",
+"clasificacion": [],
+"criterios": [
+"Precio 50",
+"Incremento sobre el plazo de garantía 25 (JV)",
+"Disminución del plazo de ejecución 25 (JV)"
+],
+"pct_jv": 50.0,
+"garantias": [],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "",
+"url_ppt": "",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SuS2He%2FcDqGkU02jNGj1Fw%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20151356": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20151356",
+"actualizado": "2026-11-02T12:54:03Z",
+"estado": "EV",
+"tipo": "3",
+"expediente": "OBR/ABR_SMPL/2026000118",
+"organo": "Junta de Gobierno del Ayuntamiento de Elche",
+"objeto": "Reparación de cubierta en el CEIP Miguel Hernández",
+"cpv": [
+"45261214"
+],
+"importe": 81589.84,
+"valor_estimado": 81589.84,
+"procedimiento": "9",
+"fecha_limite": "2026-08-18 23:59",
+"nuts": "ES521",
+"provincia_txt": "Alicante/Alacant",
+"municipio": "",
+"plazo_ejecucion": "3 meses",
+"clasificacion": [],
+"criterios": [
+"Oferta económica 100"
+],
+"pct_jv": 0.0,
+"garantias": [
+"complementaria 1%",
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CW1I3dMtpqN%2BEyu1Yjh/HmstC%2BFdmi7h%2BYimxUqHNFv8wLl8KHLdJGK5CWOQphlb%2BxSC/6F9%2Bx01sf5x5qjPHj/4Ugir6ebXOe26AEoYcLc//q7NB2iMZvNyf0xrJmjt",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2BvIUPvluChGeSeoSOkpjFdtJULHz/Tl/WcHHaeC/OFMXTLv41Hxjt7qSX47iYap7lNxJ7AXhXLwP%2BdjoDAdhBximMrGJx/tKbiutiE7pywMZyAJWGsSt0OzTSTyw9JAs",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=YM5SivsROVg7u6%2B%2FR7DUoA%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20572443": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20572443",
+"actualizado": "2026-11-02T12:50:42Z",
+"estado": "ADJ",
+"tipo": "3",
+"expediente": "7004/2026*",
+"organo": "Alcaldía del Ayuntamiento de Villajoyosa",
+"objeto": "Obra forestal y prevención de incendios forestales en la Moratella grossa de Villajoyosa.",
+"cpv": [
+"45262640",
+"45111220"
+],
+"importe": 33057.85,
+"valor_estimado": 33057.85,
+"procedimiento": "9",
+"fecha_limite": "2026-10-05 23:59",
+"nuts": "ES521",
+"provincia_txt": "",
+"municipio": "Alicante (Alacant)",
+"plazo_ejecucion": "3 meses",
+"clasificacion": [],
+"criterios": [
+"Precio 70",
+"Mejora de dismunición el plazo de ejecución 30 (JV)"
+],
+"pct_jv": 30.0,
+"garantias": [],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "",
+"url_ppt": "",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=bfoMTfPttXDECtSnloz%2BZQ%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20497367": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20497367",
+"actualizado": "2026-11-02T12:45:07Z",
+"estado": "EV",
+"tipo": "3",
+"expediente": "D OB 204/26",
+"organo": "Junta de Gobierno del Ayuntamiento de Marbella",
+"objeto": "Contratación de las obras de Prolongación de Acerado en calle Las Amapolas. Nueva Andalucía. T.M. Marbella (Málaga)",
+"cpv": [
+"45233340"
+],
+"importe": 62066.95,
+"valor_estimado": 62066.95,
+"procedimiento": "9",
+"fecha_limite": "2026-09-11 23:59",
+"nuts": "ES617",
+"provincia_txt": "Málaga",
+"municipio": "",
+"plazo_ejecucion": "2 meses",
+"clasificacion": [],
+"criterios": [
+"Proposición económica 80",
+"Reducción del Plazo de Ejecucion de la obra 20"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 0%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=6x0L/tPCv4imMVFaewf6BIDeB7BJ38fefjMH%2BanL7/3fy5rP4PtoWH9/9YOnQf1NMcJwXaKUHEs0GSIVEvYWEWo0iakkJXoCH4SkOxyosc8C1/zDIE0Kw/PWNnLS0Z0z",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ppX0GSNnvg/a4rDCr69a7Ps7FYCJPW0uYpt6rlTdtcw5IZx2LVrj1GACdr9rSFXT3M/F5dVjT13RenX5WqjeFc5f3dyK9Os9dTv4ohUbUpK1aXEvq3KHa/AEHgtDrQw0",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vALRXL7LbJhVq4S9zvaQpQ%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20603412": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20603412",
+"actualizado": "2026-11-02T12:17:46Z",
+"estado": "EV",
+"tipo": "2",
+"expediente": "SERV/2026000060",
+"organo": "Junta de Gobierno del Ayuntamiento Dénia",
+"objeto": "Servicio de señalización horizontal del municipio",
+"cpv": [
+"50232200",
+"34928470",
+"44811000",
+"45233221",
+"34922100"
+],
+"importe": 55200.0,
+"valor_estimado": 55200.0,
+"procedimiento": "9",
+"fecha_limite": "2026-10-19 23:59",
+"nuts": "ES521",
+"provincia_txt": "Alicante/Alacant",
+"municipio": "",
+"plazo_ejecucion": "1 años",
+"clasificacion": [],
+"criterios": [
+"Criterios Automáticos 100"
+],
+"pct_jv": 0.0,
+"garantias": [],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=AszdO4J6jBvBNSCeoe3VojhSft9VSzpnzl0qX1hWhA/cKVKz6YQmRVXrdVzQk4CWhSt3d19kyfc06E%2BYDEy8tp1tBJg4D5/fVIyNE931vg3DdQD9RyhUmzT4jZ2In4zL",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=l32q9/1UzDRMa9MF8Me1gdiprYAhZxO3bOBkoZAJ2Ym/omP3mM9SC2EeC/uPa016rWgErFnIGk6IeJvUaRE525YQjYrjTJ9aHrE7EfDPEHtt/o8fNevwsujgRzaBbugn",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fFNjh8aOOQbCfVQHDepjGQ%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/12062371": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/12062371",
+"actualizado": "2026-11-02T12:12:41Z",
+"estado": "RES",
+"tipo": "3",
+"expediente": "TSA0074826",
+"organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+"objeto": "Contratación de la “instalación eléctrica en regadío en el municipio de almedíjar (castellón)”.",
+"cpv": [
+"45310000",
+"45317100",
+"45317000"
+],
+"importe": 50913.98,
+"valor_estimado": 50913.98,
+"procedimiento": "9",
+"fecha_limite": "2023-02-21 14:00",
+"nuts": "ES522",
+"provincia_txt": "Castellón/Castelló",
+"municipio": "",
+"plazo_ejecucion": "2 meses",
+"clasificacion": [],
+"criterios": [
+"PRECIO 100"
+],
+"pct_jv": 0.0,
+"garantias": [],
+"revision_precios": "El adjudicatario renuncia a la revisión de los precios ofertados.",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=7c569437-cae9-433d-95e7-c567ab976235",
+"url_ppt": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=4f42ac44-cbb2-47a8-b611-55a3f7bfe43a",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j8yMlwCMlGCrz3GQd5r6SQ%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824252": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824252",
+"actualizado": "2026-11-02T12:11:55Z",
+"estado": "PUB",
+"tipo": "3",
+"expediente": "871/2026",
+"organo": "Alcaldía del Ayuntamiento de Cocentaina",
+"objeto": "Obras de rehabilitación del centro cultural El Teular de Cocentaina.",
+"cpv": [
+"45212000",
+"39111200",
+"45311000"
+],
+"importe": 490191.66,
+"valor_estimado": 510537.05,
+"procedimiento": "9",
+"fecha_limite": "2026-11-23 23:59",
+"nuts": "ES521",
+"provincia_txt": "Alicante/Alacant",
+"municipio": "",
+"plazo_ejecucion": "5 meses",
+"clasificacion": [],
+"criterios": [
+"Mejora Sustitución del rótulo exterior 3",
+"Mejora Pintura del Hall Principal y Sala Polivalente 6",
+"Baja en el precio del contrato 80",
+"Ampliación plazo de Garantía 11"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2Bo1DuLpHRsqJAYSeZVs1nmXW0DSU/bb4ntPrL9Vfql4/FpJ0o4bKHL46lodGX7FD0lFQqGUkD6ptJdgdJei3ojOWfU0wXXGc25fth0M8zMeHAj0WEJrB5sP7amrh2jBD",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2fqsgSmmy9ymfowLHKQa0sMpEE0aQ05fFoo1Fg59dkh7ixpoSDqIDuxehPvMpbC24ZyucCvXslXtB0EyRWOF0BP60j/5udFPDyGCfdYLGh0C1/zDIE0Kw/PWNnLS0Z0z",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=g3PPbucU3pt70UvEyYJSGw%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824253": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824253",
+"actualizado": "2026-11-02T12:10:39Z",
+"estado": "PUB",
+"tipo": "3",
+"expediente": "04101/2026/248-O",
+"organo": "Junta de Gobierno del Ajuntament de València",
+"objeto": "Obras de mejora de itinerarios ciclistas en la avda. Alfahuir y en las calles Reig Genovés y San Vicente de Paul, en el barrio de Orriols, en el distrito de Rascanya (dividido en 2 lotes), actuación cofinanciada por el Fondo Europeo de Desarrollo Regional (FEDER) en el marco del Programa Plurirregional de España FEDER 2021-2027.-",
+"cpv": [
+"45200000"
+],
+"importe": 276566.35,
+"valor_estimado": 304222.99,
+"procedimiento": "9",
+"fecha_limite": "2026-11-23 23:59",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "",
+"plazo_ejecucion": "4 meses",
+"clasificacion": [],
+"criterios": [
+"MENOR PRECIO OFERTADO 80",
+"MAYOR EXPERIENCIA PROFESIONAL DE LAS PERSONAS INTEGRANTES DEL EQUIPO DE TRABAJO. 20"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 2,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2et/%2BPwdZZERsXM9C5YsllF2hl5Cg2kJXm0AK7AKh153e7os%2BwbrhhtED%2BPAwsy5yzROj3C3WBRJw3fcmvscnVQl/CBoBt5DNFnFSXbkxh21aXEvq3KHa/AEHgtDrQw0",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2CHsoHb5Wdn0u5FbNNnRvTKBrYQPqhMXJdQW5PyK8U3FM/d1QiMKWTiz1US1bEuX56wVjSdxxvbPOT%2BwnQo1pC6BPX7L3TU9qwq5vOEFN7d45ClyWkoJ44mKM70IFcOu",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ErXx7hGgbSd%2BF6L2uCfUWg%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/17428193": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/17428193",
+"actualizado": "2026-11-02T12:07:46Z",
+"estado": "RES",
+"tipo": "3",
+"expediente": "6632/2025",
+"organo": "Alcaldía del Ayuntamiento de Xàtiva",
+"objeto": "Construcción del nuevo Centro de Día para personas con diversidad funcional intelectual en la ciudad de Xàtiva (Valencia)",
+"cpv": [
+"45215221"
+],
+"importe": 1856963.97,
+"valor_estimado": 1856963.97,
+"procedimiento": "9",
+"fecha_limite": "2025-06-26 23:59",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "Xàtiva",
+"plazo_ejecucion": "8 meses",
+"clasificacion": [],
+"criterios": [
+"Reducción del plazo de inicio de la obra y presentación del Plan de SyS 5",
+"Mejora nº2: instalación de estores (mejora 1 del Doc 14_Mejoras del proyecto) 5",
+"Mejora nº1: actuaciones de jardinería y riego (mejora 2 y 3 del Doc14_Mejoras del proyecto) 20",
+"Compromiso de mantenimiento adicional de maquinaria e instalaciones 10",
+"Oferta económica sobre el presupuesto base de licitación 60"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?DocumentIdParam=CQhJjatMIIlWLyq3paF7LDlOJg3J0FhBg2OdwG%2BiIoD7mxpzypcGHWwHUy9ynrfPCAZVM7a5OmGpgtxmXgbgLqXo7UDwvyIGLwG0/hzx3QYZyAJWGsSt0OzTSTyw9JAs&cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?DocumentIdParam=TgtUYkWF71PC1n%2BQxYvWHi7pEn5iUl/mwtMBFd/xEX0FCdmlK8iel5dnAEBQAMHh%2BYft6UzK5WF3FCuTk2slBLkLi1apUgdHT4tsNRSc2YYZyAJWGsSt0OzTSTyw9JAs&cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=PK6G%2B7LrJHzua%2Fi14w%2FPLA%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824259": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824259",
+"actualizado": "2026-11-02T11:56:25Z",
+"estado": "PUB",
+"tipo": "3",
+"expediente": "EXP 70010 2026 342",
+"organo": "Vicepresidencia del Organismo Autónomo Municipal Parques y Jardines Singulares y Escuela Municipal de Jardineria y Paisaje",
+"objeto": "Obras del Proyecto de intervención en jardín histórico: reparación del estanque y su entorno en los Jardines de Monforte",
+"cpv": [
+"45454100",
+"45112711"
+],
+"importe": 296835.9,
+"valor_estimado": 296835.9,
+"procedimiento": "9",
+"fecha_limite": "2026-11-22 23:59",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "",
+"plazo_ejecucion": "4 meses",
+"clasificacion": [],
+"criterios": [
+"A2: EXPERIENCIA PROFESIONAL ESPECÍFICA DE LAS PERSONAS INTEGRANTES DEL EQUIPO DE TRABAJO 36",
+"A4: ADSCRIBIR AL EQUIPO UNA PERSONA TÉCNICA ESPECIALISTA EN JARDINERÍA HISTÓRICA, ADICIONAL AL EQUIPO DE TRABAJO MÍNIMO ADSCRITO 9",
+"A1: BAJA ECONÓMICA AL TIPO DE LICITACIÓN 35",
+"A3: AMPLIACIÓN DEL PLAZO DE GARANTÍA 20"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ZC8znC/JH9BV9lmQWspkXXUO1UAVoJ%2BWTB5O2obyX26Q1ZarVFpF6/dLKscgkryC1QUgpeMFMUS6i3yADz4OTj/WE/mFYpSk9h6M8N8RuAwZyAJWGsSt0OzTSTyw9JAs",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=WM8wo/a7AXFNUvmlX48/GpYWJyogvuYYbI4wEHYMn5Yneg5%2BTa/TEDZrrEwNtcsPXMRkLII7yRyUYDKkqoKgqI1emp6t5QzbeZb8ewzZFm57QB3HKyQaFUExmUVQCerk",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5Z55crTqcxokJPJS%2BPS9vg%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19724487": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19724487",
+"actualizado": "2026-11-02T11:55:35Z",
+"estado": "RES",
+"tipo": "3",
+"expediente": "26/030",
+"organo": "Gerencia de Ferrocarrils de la Generalitat Valenciana",
+"objeto": "Ejecución de las obras del \"Proyecto de construcción para la prolongación de los andenes del apeadero Puerta del Mar de la línea 5 de TRAM d´Alacant\".",
+"cpv": [
+"45234121",
+"45234126"
+],
+"importe": 2897272.46,
+"valor_estimado": 2897272.46,
+"procedimiento": "1",
+"fecha_limite": "2026-06-22 12:00",
+"nuts": "ES521",
+"provincia_txt": "Alicante/Alacant",
+"municipio": "",
+"plazo_ejecucion": "8 meses",
+"clasificacion": [
+"D3-3",
+"D1-3"
+],
+"criterios": [
+"Documentacion evaluable por juicio de valor. OFERTA TECNICA 45 (JV)",
+"Documentacion evaluable automaticamente (fórmula) OFERTA ECONOMICA 55"
+],
+"pct_jv": 45.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=BAgmsciVN%2BHCGodZ6FBY054Gqf/XWEPvMj8fQZWFGRp5PNp2UMJYfckgPMolfCVjzh%2B1jDVRLAq0OMqmUdyY5We%2BsBYOp0S%2BXp5SwiBpyoR7QB3HKyQaFUExmUVQCerk",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wz%2B2StmQj2V4P6hnXCJJTTCqSwV4DgN1ajQ6vG5i6wwE5W5b8qSaHr4joE/sxYU8qy4dqSLciOoURPEGqxDKviX3O0lbMEPs0Eo6xEIRTWU//q7NB2iMZvNyf0xrJmjt",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JGc4e4Jv86zECtSnloz%2BZQ%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824265": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824265",
+"actualizado": "2026-11-02T11:43:56Z",
+"estado": "PUB",
+"tipo": "3",
+"expediente": "FP.499.080/2111",
+"organo": "Presidencia de la Confederación Hidrográfica del Júcar",
+"objeto": "Zona de laminación natural en la confluencia del Barranco Casella-Barxeta",
+"cpv": [
+"45246400"
+],
+"importe": 1591269.8,
+"valor_estimado": 1591269.8,
+"procedimiento": "1",
+"fecha_limite": "2026-11-30 14:00",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "",
+"plazo_ejecucion": "8 meses",
+"clasificacion": [
+"E1-4"
+],
+"criterios": [
+"Criterio automático 3: Ampliación del plazo de garantía 5",
+"Criterio precio 25",
+"Oferta técnica 50 (JV)",
+"Criterio automático 4: Elaboración de material divulgativo 2,5",
+"Criterio automático 2:Compromiso de incremento de gasto en ensayos 5",
+"Criterio automático 1: Experiencia del Jefe de Obra 12,5"
+],
+"pct_jv": 50.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cFPzl6tnmalqx3OKta7SXpAS6DeENa8KwEyfKKnX1ycmLYuea2no13roMa1TbrVAmHvGudrUOOSVKX4xyU7wLzarvm9bcSCJzXOux20GStOHAj0WEJrB5sP7amrh2jBD",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=swyK/co06cTythpyqdhFzAXVBq9g28Kb8ZkSJyeCS5NCERuRYvNnOV9e5FsdROSAn0oSk%2B4HBS5sotB%2B3NQdmhZWwBl5WLMUMczcKoawqTB7QB3HKyQaFUExmUVQCerk",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=b5WpNOUccmj%2B3JAijKO%2Bkg%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/12036762": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/12036762",
+"actualizado": "2026-11-02T11:42:35Z",
+"estado": "RES",
+"tipo": "3",
+"expediente": "TSA0074836",
+"organo": "Empresa de Transformación Agraria S.A.,S.M.E., M.P., (TRAGSA)",
+"objeto": "Alquiler de tractor de ruedas con conductor en el proyecto restauración ambiental en montes públicos de la demarcación forestal de Polinyà del Xuquer, requena y enguera, afectados por los incendios forestales de 1994 a 2005.",
+"cpv": [
+"45500000"
+],
+"importe": 405000.0,
+"valor_estimado": 405000.0,
+"procedimiento": "9",
+"fecha_limite": "2023-02-17 14:00",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "",
+"plazo_ejecucion": "18 meses",
+"clasificacion": [],
+"criterios": [
+"PRECIO 100"
+],
+"pct_jv": 0.0,
+"garantias": [],
+"revision_precios": "El adjudicatario renuncia a la revisión de los precios ofertados",
+"lotes": 4,
+"url_pcap": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=cbcb632d-41cd-4158-9625-95126fa881b3",
+"url_ppt": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=c749c124-6770-4a6a-9e0c-1caf87fcba3a",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=FPwXA8ZtCjwuf4aBO%2BvQlQ%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824267": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824267",
+"actualizado": "2026-11-02T11:41:34Z",
+"estado": "PUB",
+"tipo": "3",
+"expediente": "O6S-208/2026",
+"organo": "Presidencia de la Diputación Provincial de Alicante",
+"objeto": "Obra de adecuación de los sistemas de seguridad del MARQ Museo Arqueológico de Alicante.",
+"cpv": [
+"45111320",
+"45222300",
+"35121000",
+"35125000",
+"45312200"
+],
+"importe": 150596.22,
+"valor_estimado": 150596.22,
+"procedimiento": "9",
+"fecha_limite": "2026-11-23 23:59",
+"nuts": "ES521",
+"provincia_txt": "Alicante/Alacant",
+"municipio": "",
+"plazo_ejecucion": "6 meses",
+"clasificacion": [],
+"criterios": [
+"b.3) Medidas a adoptar por la empresa para la reducción de las emisiones y del volumen de residuos generados, y/o la mejora de la gestión medioambiental. (Se tendrá en cuenta si la empresa tiene implantado algún Sistema de Gestión Medioambiental) 5 (JV)",
+"b.1)- Estudio y conocimiento del proyecto de obra, eficiencia en la ejecución del proceso constructivo de la obra y propuestas para resolver las eventuales dificultades de la obra o afecciones detectadas 10 (JV)",
+"a.1) Menor precio del contrato 75",
+"b.2) Idoneidad y organización de los medios (personales y materiales), así como las instalaciones auxiliares necesarias a disposición de la ejecución de la obra 10 (JV)"
+],
+"pct_jv": 25.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=I5OUJYA7OWDoEjU4fK1BGIRu8shOrQiom34dF5Q/fK45amgnaYbQweLE5zzCuLLACmOP1U9OwFTB4TFchZ9sOpHYz%2Bi2sZrQGCHcfNfM%2BpjDdQD9RyhUmzT4jZ2In4zL",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jV/XoHwJFqu59/Qd4hQDynhSUE9s%2Bi7kLKYZJ9Yp6E/ZN2Y9LdtWjGp2NRTrg65SU3ybGNp16hIYnookpthHc3WIJldB6uJ1v9gkr/hZwoMC1/zDIE0Kw/PWNnLS0Z0z",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2gDrLlEkFS4%2Bk2oCbDosIw%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20622537": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20622537",
+"actualizado": "2026-11-02T11:39:34Z",
+"estado": "EV",
+"tipo": "3",
+"expediente": "SEC 010/2026-1803",
+"organo": "Alcaldía del Ayuntamiento de Salar",
+"objeto": "Acondicionamiento vestuarios piscina municipal",
+"cpv": [
+"45000000"
+],
+"importe": 103338.86,
+"valor_estimado": 103338.86,
+"procedimiento": "1",
+"fecha_limite": "2026-10-31 23:59",
+"nuts": "ES614",
+"provincia_txt": "Granada",
+"municipio": "",
+"plazo_ejecucion": "3 meses",
+"clasificacion": [],
+"criterios": [
+"Implantación, logística o disponibilidad de infraestructura en el municipio 20",
+"Precio 70",
+"Reducción del plazo de ejecución 10"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=WC5vY/eBIXzg7if4zMBvTqklvcpziBKeU3wGUDQxfg%2BBVoiPbQOBGQXvX68YX%2BSH7fKmUf%2BmUKTWwL5tqF1stWlpx53c6v0JL71yAsIGdY%2BB0nvVKRzfe4rpHcnlPhSZ",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=VIOa5NnmzQfCb5sB3SYh9f%2BPmtmbc2PKlRDvLCOSonT0vZXUmqw9p4q0W6yrY%2BdFpy9vUKEHN0YspiuN5mcPK1aLUGhwJ1DiYOAsC9GSDzGHAj0WEJrB5sP7amrh2jBD",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ONwX7s6Vlzezz8fXU2i3eQ%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824276": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824276",
+"actualizado": "2026-11-02T11:21:08Z",
+"estado": "ADJ",
+"tipo": "2",
+"expediente": "CMAYOR/2026/44Y05/0067",
+"organo": "Vicepresidente Tercero y Conseller de Medio Ambiente, Infraestructuras, Territorio y de la Recuperación",
+"objeto": "Declaración de emergencia de la contratación y adjudicación del contrato de Ejecución de los trabajos correspondientes a las actuaciones de emergencia de limpieza, tala de árboles, adecuación de taludes y reparación del equipamiento de las carreteras afectadas por el incendio de la sierra de Espadán (Castellón)",
+"cpv": [
+"50230000",
+"45233142",
+"45233141"
+],
+"importe": 991735.54,
+"valor_estimado": 991735.54,
+"procedimiento": "3",
+"fecha_limite": "",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "",
+"plazo_ejecucion": "5 meses",
+"clasificacion": [],
+"criterios": [],
+"pct_jv": null,
+"garantias": [],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "",
+"url_ppt": "",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CyFApIEMUnXjHF5qKI4aaw%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824279": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824279",
+"actualizado": "2026-11-02T11:14:55Z",
+"estado": "PUB",
+"tipo": "3",
+"expediente": "01-03-2026=A=(5151/2026)",
+"organo": "Alcaldía del Ayuntamiento de Finestrat",
+"objeto": "Obras de instalación de climatización y ventilación en el CEIP Balcó de Finestrat y en el CEIP Puig Campana",
+"cpv": [
+"45331200"
+],
+"importe": 1058067.07,
+"valor_estimado": 1058067.07,
+"procedimiento": "1",
+"fecha_limite": "2026-11-30 18:00",
+"nuts": "ES521",
+"provincia_txt": "",
+"municipio": "Alicante (Alacant)",
+"plazo_ejecucion": "6 meses",
+"clasificacion": [
+"J*-3"
+],
+"criterios": [
+"[lote 1]",
+"Precio 55",
+"Mejoras técnicas objetivas 45"
+],
+"pct_jv": 0.0,
+"garantias": [],
+"revision_precios": "",
+"lotes": 2,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=sM9WPUzcaVGZBchrLdiFInqRVxSqj4KsxbWILT%2BTG/ETnIbfv0OGcaWVVpbCa9kJdZ1Or8axC2%2BiWn3REOpSaKFB8uY%2BBvllqp1ZnzgP5xuHAj0WEJrB5sP7amrh2jBD",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=GdlVAqGQtE4/3xWe7IfB%2BUe1%2BJzSxFWazIvJC7Eh3mxPmoAbzZMz1/DK47fJT9M%2BA5edaalMAzTQ69aZiXpkXRakPlill3WaUE3LuiNBAm17QB3HKyQaFUExmUVQCerk",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QaAWelyR7V%2B5HQrHoP3G5A%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824282": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824282",
+"actualizado": "2026-11-02T11:03:06Z",
+"estado": "ADJ",
+"tipo": "3",
+"expediente": "EC-V-26011-L2bis",
+"organo": "Secretaría de Estado de Planificacion e Infraestructuras - Demarcación de Carreteras del Estado en la Comunidad Valenciana",
+"objeto": "Obras de reparación de la inestabilidad detectada en el revestimiento del hastial izquierdo del tubo 2 del túnel de l'Olleria, en la autovía A-7, en el p.k. 408+380, provincia de Valencia, subsanando la situación de grave peligro existente (actuación 52-V-260020).",
+"cpv": [
+"45221241",
+"45221248",
+"45220000"
+],
+"importe": 1116601.23,
+"valor_estimado": 1116601.23,
+"procedimiento": "3",
+"fecha_limite": "2026-10-27 10:00",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "",
+"plazo_ejecucion": "6 meses",
+"clasificacion": [],
+"criterios": [
+"PRECIO 100"
+],
+"pct_jv": 0.0,
+"garantias": [],
+"revision_precios": "No",
+"lotes": 0,
+"url_pcap": "",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zwAyK7e0VpzypxTUZccill1cty3s%2BItGV0yCpa9GUS0BuS3ISANjoASR8njjUAhklwXaKDd%2BiAsAVDU//GnlpzdaKlBADfz9mS4OWXOutLK1aXEvq3KHa/AEHgtDrQw0",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4R%2BviErV4MAIYE3ZiZ%2BxmQ%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824283": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824283",
+"actualizado": "2026-11-02T11:03:02Z",
+"estado": "PUB",
+"tipo": "3",
+"expediente": "FP.499.079/2111",
+"organo": "Presidencia de la Confederación Hidrográfica del Júcar",
+"objeto": "Elementos estructurales de protección contra inundaciones del núcleo urbano de Cogullada",
+"cpv": [
+"45246400"
+],
+"importe": 3592822.84,
+"valor_estimado": 3592822.84,
+"procedimiento": "1",
+"fecha_limite": "2026-11-30 14:00",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "",
+"plazo_ejecucion": "12 meses",
+"clasificacion": [
+"E1-4"
+],
+"criterios": [
+"Criterio automático 4:Elaboración de material divulgativo 2,5",
+"Criterio automático 3: Ampliación del plazo de garantía 5",
+"Criterio precio 25",
+"Criterio automático 2:Compromiso de incremento de gasto en ensayos 5",
+"Criterio automático 1:Experiencia del jefe de obra 12,5",
+"Oferta técnica 50 (JV)"
+],
+"pct_jv": 50.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7JSnxwSzgtLVZOhw5cN0SqQ8DJwzU/OSog2oaNSPIDB2F1lHwK1pRLvmTbA38dMIvniaHDuWTkWuxCU16jtazaB9UoG6IhzzQssueN4z3mqHAj0WEJrB5sP7amrh2jBD",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9yifPY0hzuBDX%2BWR3sHeLYRR0XMgOzY0HMEfkXnqpAI9KVtIVQ3aMS5QwAoG6k50hwNKD2SRSbx6Dx2jr2gqosWma1ZXAVDAO9XZB0RARS0//q7NB2iMZvNyf0xrJmjt",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vytAfcRBdrlQFSeKCRun4Q%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20447096": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20447096",
+"actualizado": "2026-11-02T10:33:14Z",
+"estado": "EV",
+"tipo": "3",
+"expediente": "2800085H BIS",
+"organo": "Pleno del Ayuntamiento de Antella",
+"objeto": "Contrato de obra del Proyecto Básico y de Ejecución de Urbanización de Plaza y Edificio Público en el Camí de la Fonteta, Carrer Martí l'Humà núm 1 de Antella",
+"cpv": [
+"45200000",
+"45220000",
+"45211360",
+"45223200"
+],
+"importe": 1011448.36,
+"valor_estimado": 1223852.52,
+"procedimiento": "9",
+"fecha_limite": "2026-10-19 15:00",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "Antella",
+"plazo_ejecucion": "9 meses",
+"clasificacion": [],
+"criterios": [
+"C2. MEJORAS 30",
+"C1. OFERTA ECONÓMICA 65",
+"C3. AMPLIACIÓN PLAZO GARANTÍA 5"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=vpMvbkgKHPDiwBIlANuFC5URMD8F7SYtq2jE7hd9RU6f3pBldPtGAZLHiX36%2BTJ/H090zbMW3ERsN%2BHpwOZYRyTBEwoFjIzJDIhU3R/7QLL6CYyL7SIrUOBFfNf52ZqA",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=M8q1PrJPgtDTgx/mH6jaq2kgCmgtWymx%2BISLd1tMZGKvt3W6J7rtURpLQfKXPe14ksn/9pmlUlK24MU804Wxt2xYk5y6kitXse5MNrDDJdvDdQD9RyhUmzT4jZ2In4zL",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KPqD7NIOBRBQFSeKCRun4Q%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824304": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824304",
+"actualizado": "2026-11-02T09:39:42Z",
+"estado": "PUB",
+"tipo": "3",
+"expediente": "254/2026",
+"organo": "Pleno del Ayuntamiento de Domeño",
+"objeto": "Estudio Arqueológico y consolidación del sector suroeste Almohade del Castillo de Domeño (Fase VIII)",
+"cpv": [
+"45212354"
+],
+"importe": 135854.73,
+"valor_estimado": 164384.23,
+"procedimiento": "1",
+"fecha_limite": "2026-11-28 23:59",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "DOMEÑO",
+"plazo_ejecucion": "3 meses",
+"clasificacion": [],
+"criterios": [
+"Ver claúsula undecima PCAP 75",
+"Ver claúsula undecima PCAP JUICIO DE VALOR 25 (JV)"
+],
+"pct_jv": 25.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=JBMIggXDflFDzjBiLlmc8r9xMx74hDe863WFTka7UshV4zEKBPYgAquG%2Bb1KHQhyAvtBlEXBv73IYEcSQft69DbwD%2BimRjq4%2BrvYkJZ/izY//q7NB2iMZvNyf0xrJmjt",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=DdhdMre6JB1HVrdx76exTDVQYsim/ncFCNW4NJLlPn9cj/cPC%2BQElO%2BMaB46DCtNfi9%2Bu5YIv6Uh4negoC/OSRrbszIcKSdWWp/wK93dUaUC1/zDIE0Kw/PWNnLS0Z0z",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ONgSaltt6YLi0Kd8%2Brcp6w%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20338226": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20338226",
+"actualizado": "2026-11-02T09:29:36Z",
+"estado": "ADJ",
+"tipo": "3",
+"expediente": "BURR 11654/2026-PM 4/2026",
+"organo": "Junta de Gobierno del Ayuntamiento de Borriana",
+"objeto": "Ejecución de las obras del proyecto de rehabilitación de la Casa Museo Cardenal Tarancón aprobado por la Junta de Gobierno Local el 9 de julio de 2026.",
+"cpv": [
+"45300000",
+"45400000"
+],
+"importe": 157080.0,
+"valor_estimado": 157080.0,
+"procedimiento": "9",
+"fecha_limite": "2026-09-14 23:59",
+"nuts": "ES522",
+"provincia_txt": "Castellón/Castelló",
+"municipio": "Burriana/Borriana (Castellón )",
+"plazo_ejecucion": "4 meses",
+"clasificacion": [
+"J1-1",
+"C7-1",
+"C4-1",
+"C8-1",
+"C5-1",
+"I9-1",
+"J5-1",
+"I8-1",
+"C6-1",
+"K9-1",
+"C1-1",
+"C9-1",
+"K4-1",
+"I7-1",
+"J2-1"
+],
+"criterios": [
+"Plazo de ejecución del contrato 20",
+"Oferta económica 80"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%",
+"complementaria 2%"
+],
+"revision_precios": "No",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=FVm58ESnlVC%2BAjQCbiuMA8d6gKy8znqAEyTY8PJn%2BzsD23sK0ymGVmI8Q5RoRr1%2BzoAjr2JTqp1Z8zmSwngv6GnFZi9ASkO8Y7LtXAsox4DVTD3T98KC0nSgQFM0q%2B5s",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MDK14KyBJ4YquWmD4RZMReEK/II9pny%2BPoy0OQJaHiHuRnrxFE7c%2B0IK/pkb%2BfOaxiDBTNa7ND9e5tZsBDBLK%2BpuhNMXCOV2y1elOs8P3TzfdyQgZAdTm3EfcUAC7CJ6",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=FYGO61j4Obd6nTs9LZ9RhQ%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824314": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824314",
+"actualizado": "2026-11-02T09:14:29Z",
+"estado": "PUB",
+"tipo": "3",
+"expediente": "4775/2026",
+"organo": "Alcaldía del Ayuntamiento de Náquera",
+"objeto": "Contrato de obras de planta de tratamiento de agua potable mediante membranas de ósmosis en el Pozo Mont-Ros de Náquera",
+"cpv": [
+"45252126"
+],
+"importe": 1501415.25,
+"valor_estimado": 1501415.25,
+"procedimiento": "9",
+"fecha_limite": "2026-11-23 23:59",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "Náquera",
+"plazo_ejecucion": "8 meses",
+"clasificacion": [],
+"criterios": [
+"Mejoras 15",
+"Criterios de calidad 8",
+"Memoria estudio ejecución de la obra 25 (JV)",
+"Precio (Oferta Económica) 52"
+],
+"pct_jv": 25.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "No",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=spM/wpiZ%2BLzi6%2BlXqwD92VaPRUi2Irg7zSDF9H0NTzrSxEQeG4QJZzfC6eBa1X%2BiNAr0ZcVtBD3bpRg3w2xusuFIJvuvCEuWQI4ZZ7rjJ2Z45ClyWkoJ44mKM70IFcOu",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t%2BzBMpezfVUimYTxRZ82EvAPj9jECZKYS3rn7UpOiJWTIDphYASbeUBQu0YtauOJmC1apXFMleerlBzBhMZd2Jv%2BHVET1DuaVMzvDPOH2sS1aXEvq3KHa/AEHgtDrQw0",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XVk4mKGCbC%2FzAq95uGTrDQ%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824324": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824324",
+"actualizado": "2026-11-02T09:02:36Z",
+"estado": "PUB",
+"tipo": "1",
+"expediente": "9493/2026",
+"organo": "Alcaldía del Ayuntamiento de Xàtiva",
+"objeto": "suministro y sustitución de pavimentos en las pistas de pádel y la reposición del pavimento de las pisas de tenis del polideportivo municipal “Les Pereres”",
+"cpv": [
+"37452720",
+"45212290"
+],
+"importe": 41700.0,
+"valor_estimado": 41700.0,
+"procedimiento": "9",
+"fecha_limite": "2026-11-16 23:59",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "Xàtiva",
+"plazo_ejecucion": "2 meses",
+"clasificacion": [],
+"criterios": [
+"oferta economica 100"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=p9j1c5Cd8e8UKs225jb8EIJ6NXn0eHKWm85%2BV/Sj/66quqcKiBVhL0y9l/V%2B7XZ47c6fSy05/6ME1ilYU2ivklPWomYya7UOq8%2BbI6zYgk3VTD3T98KC0nSgQFM0q%2B5s",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CJJAXOnc5K2IavSZ/1kC4sXJB%2BfWQL8S6s7yyrMk22cDT%2BdPigVgthcl2IYVLnOIUtql83DtE3OdhYl95DSyJ43OHdYRZFCnt6xhk8pHdWb3GVhXrFFqN7yFncy7YfRK",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JlvRkchCphpQFSeKCRun4Q%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20593986": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20593986",
+"actualizado": "2026-11-02T08:37:10Z",
+"estado": "PUB",
+"tipo": "2",
+"expediente": "PA 1600 2026",
+"organo": "Departamento de Salud de Xàtiva-Ontinyent. Dirección Económica-Gerencia",
+"objeto": "Servicio de jardinería que comprende el mantenimiento, conservación y reposición de jardines, arbolado y cualquier otro elemento ornamental de jardinería fijo o móvil, así como la limpieza de viales de las zonas verdes del nuevo Hospital General de Ontinyent y los dos centros de salud de Ontinyent, Centro de Salud II Av. De Albaida y Centro de Salud Ontinyent III El Barranquet.",
+"cpv": [
+"77311000",
+"45111220"
+],
+"importe": 160994.19,
+"valor_estimado": 214658.92,
+"procedimiento": "1",
+"fecha_limite": "2026-11-17 19:00",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "Ontinyent",
+"plazo_ejecucion": "36 meses",
+"clasificacion": [],
+"criterios": [
+"ORDEN 2. Oferta técnica 40 (JV)",
+"ORDEN 1. Oferta económica 60"
+],
+"pct_jv": 40.0,
+"garantias": [
+"complementaria 5%",
+"definitiva 5%"
+],
+"revision_precios": "No",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=48yR49/Kxl5LrUuLHwKFRTzoD9XVIV5nauXe/wIOG9NtD5WTwTiqWxH%2B3CuytHy2QYWdhsGWRYTKoHadJ5euapLR%2Bi46DbRKsZCp4ColR1DDdQD9RyhUmzT4jZ2In4zL",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nUbD8gX2mKNx2H64/3PqbhdmmoCiSiESwZ4SMtfJuAOJqVV5exow2C8jRWfkokGZs8EgPRdd5aBYcDt1mCP/DxaRqG2tHMVTaezCoSe/tcb3GVhXrFFqN7yFncy7YfRK",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=UHedSS9wM3uHCIsjvJ3rhQ%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20585896": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20585896",
+"actualizado": "2026-11-02T08:27:50Z",
+"estado": "ADJ",
+"tipo": "3",
+"expediente": "214/2026",
+"organo": "Alcaldía del Ayuntamiento de Chelva",
+"objeto": "Rehabilitación de local municipal en Ahillas para su uso como bar cafetería sin ambientación musical y piscina pública en Ahillas.",
+"cpv": [
+"45212420",
+"45212100",
+"45210000",
+"45212400"
+],
+"importe": 118526.49,
+"valor_estimado": 118526.49,
+"procedimiento": "9",
+"fecha_limite": "2026-10-19 23:59",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "",
+"plazo_ejecucion": "6 meses",
+"clasificacion": [],
+"criterios": [
+"Precio 20",
+"Conocimiento de las instalaciones y dependencias objeto del contrato 15",
+"Disposición a asumir costes 20",
+"Ampliación plazo de garantía 5"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=TVROJdHSKUK4FmScoW%2BPoO03HQ4gQxajAFY0EXfqtgHY3cUu%2Bz/8SauxrDrc5lu73%2BsFmz5vovtOwV8PxX8SSn0eYp6AjgdxUm95OosC16oZyAJWGsSt0OzTSTyw9JAs",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XitSwjpublvKLJ3M8nuf%2BzZYxI6Wox4zZOwW5aCxOajWV7YXQKlk5%2BDZom2eUi0cpHofnA%2BFco3zPQL2M/RTUPc%2BTEkCatqsQIbrVJTwEOht/o8fNevwsujgRzaBbugn",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JDJssGAO836kU02jNGj1Fw%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824339": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824339",
+"actualizado": "2026-11-02T08:16:17Z",
+"estado": "PUB",
+"tipo": "3",
+"expediente": "2978/2025",
+"organo": "Junta de Gobierno Local de l'Ajuntament de Pedreguer",
+"objeto": "Projecte d'execució per a rehabilitació de l'edifici \"Centre Artístic Musical\"",
+"cpv": [
+"45200000",
+"45400000",
+"45212320",
+"45300000"
+],
+"importe": 1272379.84,
+"valor_estimado": 1539579.61,
+"procedimiento": "9",
+"fecha_limite": "2026-11-23 14:00",
+"nuts": "ES521",
+"provincia_txt": "Alicante/Alacant",
+"municipio": "Pedreguer",
+"plazo_ejecucion": "1 años",
+"clasificacion": [],
+"criterios": [
+"Mesures de conciliació entre la vida personal, laboral i familiar 5",
+"Ampliació termini de garantia 10",
+"Preu: Es valorarà la oferta economica més baixa 80",
+"Pla d'igualtat específic 5"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qFjeItloSpVPscFo42basJZsBz5SloUkqHAuau8taG7YdYfC3cv75Xj1UMi%2BxF2UH8pKuYNwL%2BFtmRzwYl/ezKIloxd8eFD/npyFZC48gdB7QB3HKyQaFUExmUVQCerk",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=V7TjXWXpg1T8aJUKuon0dsK%2BT0M3aj3dDIL11Wo2l93ByShhqpvtfsJdTsK7Ly8xDSCLQR07%2B80tCET%2B71j3E3yqGHIpNKAHO6hUmCcVBgaCx2e6p7hqtlp2aFupgHMr",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hPqq6bGR2iQadbH3CysQuQ%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20658715": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20658715",
+"actualizado": "2026-11-02T08:03:11Z",
+"estado": "PUB",
+"tipo": "50",
+"expediente": "7869/2026",
+"organo": "Alcaldía del Ayuntamiento de El Campello",
+"objeto": "Concesión demanial para la explotación, mantenimiento e instalación de soportes de publicidad e información.",
+"cpv": [
+"79341400",
+"34928400",
+"45233293"
+],
+"importe": 50220.0,
+"valor_estimado": 50220.0,
+"procedimiento": "9",
+"fecha_limite": "2026-11-20 23:59",
+"nuts": "ES521",
+"provincia_txt": "Alicante/Alacant",
+"municipio": "",
+"plazo_ejecucion": "3 años",
+"clasificacion": [],
+"criterios": [
+"4.- Incremento del canon anual por la instalación de nuevos soportes comerciales. 15",
+"1.- Incremento del canon de la concesión 50",
+"2.- Reducción del precio por la instalación de nuevos elementos de señalización institucional. 15",
+"3- Reducción del canon anual por el mantenimiento de los nuevos elementos institucionales instalados por  el adjudicatario. 15",
+"5.- Incremento sin coste para el ayuntamiento de la disposición de elementos de publicidad 5"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 3%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2QAK1U9Ys7YbjPQLxhVaNpWkHl/pCrz%2BPmgCE5Un7iv1qNVaEchf0%2BFIYBW930AAKePJ1Whlh6C29ezjsPrfTHN3qSaMNoP9JFV/C9QS%2Bzr6CYyL7SIrUOBFfNf52ZqA",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QeM03088B25TepjEjOGgaHd03YMHbdBLHpJsNcE2I/03cykwAD5yw23cxmNdcN9n%2BuJ9vsbebqStxm1eFIp9ut57LysDE4DemzOe/m8rrqrDdQD9RyhUmzT4jZ2In4zL",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=slbfB2CgmWLN3k3tjedSGw%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
+},
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19724023": {
+"id": "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/19724023",
+"actualizado": "2026-11-02T07:46:34Z",
+"estado": "ADJ",
+"tipo": "3",
+"expediente": "4600/2026",
+"organo": "Alcaldía - Concejalía Delegada de Contratación del Ayuntamiento de Chiva",
+"objeto": "Estabilización de taludes en Avenida Reino de Valencia.",
+"cpv": [
+"45262620"
+],
+"importe": 642244.99,
+"valor_estimado": 642244.99,
+"procedimiento": "9",
+"fecha_limite": "2026-06-15 23:59",
+"nuts": "ES523",
+"provincia_txt": "Valencia/València",
+"municipio": "Chiva",
+"plazo_ejecucion": "4 meses",
+"clasificacion": [],
+"criterios": [
+"Criterios 3. Aumento del plazo de garantía de las obras 20",
+"Precio ofertado 60",
+"Criterio 2. Reducción del plazo de ejecución de las obras 20"
+],
+"pct_jv": 0.0,
+"garantias": [
+"definitiva 5%"
+],
+"revision_precios": "",
+"lotes": 0,
+"url_pcap": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ORyZUGkNKWoj%2BdrvHbyKIR4AdyTUSj74GPsHgYwIc%2B%2BJbBAt/uEpu5ewh/yL4VZPruc0oN3HGMMv8chbhNBeYg6j2EudYxSwcH8YXgxTh9z6CYyL7SIrUOBFfNf52ZqA",
+"url_ppt": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=10QyIv8/s9P5Tzn2blH8eTX7qJgD7fxexjpp/dSoFEv1a5iz47zbxxXWcsNNjaxLWaB7DaiWh8KryzCjrFs2R5iLX%2BnpyfBID/vL8gfVYm73GVhXrFFqN7yFncy7YfRK",
+"url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=z2%2FNjJlbcNA3vLk2DU2Ddg%3D%3D",
+"primera_deteccion": "2026-11-03",
+"cambios": []
 }
 },
 "bajas": {
@@ -102697,7 +104351,7 @@
 "ANULADA"
 ],
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20715786": [
-"2026-10-19T12:15:52Z",
+"2026-11-02T07:56:52Z",
 "ANULADA"
 ],
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20329144": [
@@ -102946,6 +104600,14 @@
 ],
 "https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20705896": [
 "2026-10-30T07:35:34Z",
+"ANULADA"
+],
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20824202": [
+"2026-11-02T14:06:07Z",
+"ANULADA"
+],
+"https://contrataciondelestado.es/sindicacion/licitacionesPerfilContratante/20657817": [
+"2026-11-02T07:40:46Z",
 "ANULADA"
 ]
 }
